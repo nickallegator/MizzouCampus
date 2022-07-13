@@ -1,20 +1,52 @@
 {
   "schemaVersion": 1,
   "packages": {
-    "com.microsoft.mrtk.graphicstools.unity": {
-      "tarball": {
-        "hash": "b8cb5dc7a3c3",
-        "mtime": 1656582419198,
-        "size": 9131872,
-        "localPath": "C:\\Users\\nicka\\OneDrive\\Documents\\GitHub\\MizzouCampus\\MizzouCampusOnline\\Packages\\MixedReality\\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz"
-      }
-    },
     "com.microsoft.mixedreality.openxr": {
       "tarball": {
         "hash": "e9fcfff63016",
         "mtime": 1656582419368,
         "size": 11612901,
         "localPath": "C:\\Users\\nicka\\OneDrive\\Documents\\GitHub\\MizzouCampus\\MizzouCampusOnline\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.4.1.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.examples": {
+      "tarball": {
+        "hash": "cb228d17d10e",
+        "mtime": 1656637481410,
+        "size": 55085288,
+        "localPath": "C:\\Users\\nicka\\OneDrive\\Documents\\GitHub\\MizzouCampus\\MizzouCampusOnline\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.examples-2.8.1.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.extensions": {
+      "tarball": {
+        "hash": "e7926dd2b39b",
+        "mtime": 1656637475337,
+        "size": 1129391,
+        "localPath": "C:\\Users\\nicka\\OneDrive\\Documents\\GitHub\\MizzouCampus\\MizzouCampusOnline\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.extensions-2.8.1.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.foundation": {
+      "tarball": {
+        "hash": "9c14234bfccd",
+        "mtime": 1656637475930,
+        "size": 11551930,
+        "localPath": "C:\\Users\\nicka\\OneDrive\\Documents\\GitHub\\MizzouCampus\\MizzouCampusOnline\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.foundation-2.8.1.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.standardassets": {
+      "tarball": {
+        "hash": "a1077fe0878d",
+        "mtime": 1656637475098,
+        "size": 5302742,
+        "localPath": "C:\\Users\\nicka\\OneDrive\\Documents\\GitHub\\MizzouCampus\\MizzouCampusOnline\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.standardassets-2.8.1.tgz"
+      }
+    },
+    "com.microsoft.mrtk.graphicstools.unity": {
+      "tarball": {
+        "hash": "b8cb5dc7a3c3",
+        "mtime": 1656582419198,
+        "size": 9131872,
+        "localPath": "C:\\Users\\nicka\\OneDrive\\Documents\\GitHub\\MizzouCampus\\MizzouCampusOnline\\Packages\\MixedReality\\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz"
       }
     }
   }

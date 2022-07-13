@@ -103,6 +103,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:MIRROR
 -define:MIRROR_17_0_OR_NEWER
@@ -324,9 +325,9 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
--r:"D:/Projects/Research/MiddleVR/UpdatedMaps/MizzouCampusOnline/Library/PackageCache/com.microsoft.maps.unity@0.11.2/Plugins/Microsoft.Maps.Unity.dll"
--r:"D:/Projects/Research/MiddleVR/UpdatedMaps/MizzouCampusOnline/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
--r:"D:/Projects/Research/MiddleVR/UpdatedMaps/MizzouCampusOnline/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/nicka/OneDrive/Documents/GitHub/MizzouCampus/MizzouCampusOnline/Library/PackageCache/com.microsoft.maps.unity@0.11.2/Plugins/Microsoft.Maps.Unity.dll"
+-r:"C:/Users/nicka/OneDrive/Documents/GitHub/MizzouCampus/MizzouCampusOnline/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"C:/Users/nicka/OneDrive/Documents/GitHub/MizzouCampus/MizzouCampusOnline/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Mirror/Runtime/Transports/KCP/kcp2k/where-allocation/Scripts/AssemblyInfo.cs"
 "Assets/Mirror/Runtime/Transports/KCP/kcp2k/where-allocation/Scripts/Extensions.cs"
