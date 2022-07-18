@@ -1,0 +1,831 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 32681 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nicka/OneDrive/Documents/GitHub/MizzouCampus/MizzouCampusOnline
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65528
+Successfully changed project path to: C:/Users/nicka/OneDrive/Documents/GitHub/MizzouCampus/MizzouCampusOnline
+C:/Users/nicka/OneDrive/Documents/GitHub/MizzouCampus/MizzouCampusOnline
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 175.04 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 1.47 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nicka/OneDrive/Documents/GitHub/MizzouCampus/MizzouCampusOnline/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24348 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013637 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 166.34 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014085 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nicka\OneDrive\Documents\GitHub\MizzouCampus\MizzouCampusOnline\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nicka\OneDrive\Documents\GitHub\MizzouCampus\MizzouCampusOnline\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 194.59 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.243 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2244ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1971ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (1211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (195ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (727ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6640 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (175.0 KB). Loaded Objects now: 7063.
+Memory consumption went from 234.5 MB to 234.3 MB.
+Total: 5.994500 ms (FindLiveObjects: 1.029900 ms CreateObjectMapping: 0.243700 ms MarkObjects: 4.480400 ms  DeleteObjects: 0.239200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 395.809002 seconds.
+  path: Assets/Mirror/Runtime/NetworkClient.cs
+  artifactKey: Guid(abe6be14204d94224a3e7cd99dd2ea73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/NetworkClient.cs using Guid(abe6be14204d94224a3e7cd99dd2ea73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcd85a916abec57295e70b47541957bf') in 0.129557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mirror/Runtime/NetworkReader.cs
+  artifactKey: Guid(1610f05ec5bd14d6882e689f7372596a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/NetworkReader.cs using Guid(1610f05ec5bd14d6882e689f7372596a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '056c66519fab412d4e892ef86fae5163') in 0.014429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mirror/Runtime/NetworkManager.cs
+  artifactKey: Guid(8aab4c8111b7c411b9b92cf3dbc5bd4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/NetworkManager.cs using Guid(8aab4c8111b7c411b9b92cf3dbc5bd4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c747ee2f255f6ad7dd3c3f4b3bec0cc4') in 0.015421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mirror/Version.txt
+  artifactKey: Guid(c6b1f72568a9340178b4c34608fbdbc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Version.txt using Guid(c6b1f72568a9340178b4c34608fbdbc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bad4892e20219ecb5b7bb70737d3f880') in 0.021024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mirror/Runtime/ExponentialMovingAverage.cs
+  artifactKey: Guid(05e858cbaa54b4ce4a48c8c7f50c1914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/ExponentialMovingAverage.cs using Guid(05e858cbaa54b4ce4a48c8c7f50c1914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3423f7d7cf3399b62917a4a8c387627a') in 0.012401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mirror/Editor/EditorHelper.cs
+  artifactKey: Guid(dba787f167ff29c4288532af1ec3584c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/EditorHelper.cs using Guid(dba787f167ff29c4288532af1ec3584c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a0e39ebd4d54ebfcd910327f4cfb655') in 0.009362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MRTK/Shaders/ChannelPacker.shader
+  artifactKey: Guid(72ba6d7b37f51174bb3c7be2acc8fb0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Shaders/ChannelPacker.shader using Guid(72ba6d7b37f51174bb3c7be2acc8fb0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '645dc29318dc6331c4c47cfb73ebad89') in 0.027284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Mirror/Runtime/LocalConnectionToClient.cs
+  artifactKey: Guid(a88758df7db2043d6a9d926e0b6d4191) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/LocalConnectionToClient.cs using Guid(a88758df7db2043d6a9d926e0b6d4191) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b88fcd8cb5804639e5820eca7546273b') in 0.014665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mirror/Runtime/NetworkWriterPooled.cs
+  artifactKey: Guid(a9fab936bf3c4716a452d94ad5ecbebe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/NetworkWriterPooled.cs using Guid(a9fab936bf3c4716a452d94ad5ecbebe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3d751792e30010fd4bf71e8d8d92d28') in 0.012496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt
+  artifactKey: Guid(2e5656107e61a93439544b91e5f541f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt using Guid(2e5656107e61a93439544b91e5f541f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c82327fd572b493200663d74bb62b87') in 0.020052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mirror/Editor/Mirror.Editor.asmdef
+  artifactKey: Guid(1c7c33eb5480dd24c9e29a8250c1a775) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Mirror.Editor.asmdef using Guid(1c7c33eb5480dd24c9e29a8250c1a775) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c3ceeb8da8e4a9dd210c58ab1f19427') in 0.018440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mirror/Runtime/NetworkConnection.cs
+  artifactKey: Guid(11ea41db366624109af1f0834bcdde2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/NetworkConnection.cs using Guid(11ea41db366624109af1f0834bcdde2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa2c7bb39562c6adfc454383e373df01') in 0.013246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Mirror/Runtime/SyncDictionary.cs
+  artifactKey: Guid(4b346c49cfdb668488a364c3023590e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/SyncDictionary.cs using Guid(4b346c49cfdb668488a364c3023590e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f03aa154239e9e67c81f94f13597949') in 0.014595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mirror/Editor/SyncVarAttributeDrawer.cs
+  artifactKey: Guid(27821afc81c4d064d8348fbeb00c0ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/SyncVarAttributeDrawer.cs using Guid(27821afc81c4d064d8348fbeb00c0ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebf262f1ac08d684a29447c3f5458b18') in 0.010741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d9e51bc688ed05801fc1b544fd40511') in 0.010313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mirror/Examples/Mirror.Examples.asmdef
+  artifactKey: Guid(fecf25954bb196642ab50657689761d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Mirror.Examples.asmdef using Guid(fecf25954bb196642ab50657689761d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0414d9e513b2d702ffb33c72fc0fa16c') in 0.014868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Player2.prefab
+  artifactKey: Guid(0d0cd6e1d83101343a36622cc2ea34d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player2.prefab using Guid(0d0cd6e1d83101343a36622cc2ea34d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf48f2bf706f7f3c7a946b8a59ccd40f') in 0.052684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Mirror/Components/NetworkRoomPlayer.cs
+  artifactKey: Guid(79874ac94d5b1314788ecf0e86bd23fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Components/NetworkRoomPlayer.cs using Guid(79874ac94d5b1314788ecf0e86bd23fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f944301e25af81fe27d2a87c5c39d09') in 0.013485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mirror/Runtime/NetworkLoop.cs
+  artifactKey: Guid(2c6cec4e279774b919386e05545317b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/NetworkLoop.cs using Guid(2c6cec4e279774b919386e05545317b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2400312cd625508515686ef8938ffdae') in 0.015063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mirror/Runtime/Compression.cs
+  artifactKey: Guid(5c28963f9c4b97e418252a55500fb91e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Compression.cs using Guid(5c28963f9c4b97e418252a55500fb91e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a65961e1293e6cd6800ac3eaf4bd09d') in 0.013648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/Player2.mat
+  artifactKey: Guid(826e193da398b434ea3ca4026a05c8b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Player2.mat using Guid(826e193da398b434ea3ca4026a05c8b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b548d5be6ae774125cc8c716c1a9bf12') in 0.036195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mirror/Runtime/SyncVarNetworkIdentity.cs
+  artifactKey: Guid(1f9a6d4d2741477999ad9588261870fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/SyncVarNetworkIdentity.cs using Guid(1f9a6d4d2741477999ad9588261870fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20be8647ae607744e0d8051cdefc2624') in 0.016523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ScriptTemplates/53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt
+  artifactKey: Guid(fc1892bf5b3ab304a9be7b71d05b6ae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ScriptTemplates/53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt using Guid(fc1892bf5b3ab304a9be7b71d05b6ae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '210b60d54c8ed858f6a62672fba4c6c1') in 0.019022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mirror/Components/Mirror.Components.asmdef
+  artifactKey: Guid(72872094b21c16e48b631b2224833d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Components/Mirror.Components.asmdef using Guid(72872094b21c16e48b631b2224833d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd51aae5b5e3a9b0275071d3e9734570f') in 0.017127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mirror/Editor/Empty/ScriptableObjectUtility.cs
+  artifactKey: Guid(4d54a29ddd5b52b4eaa07ed39c0e3e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Empty/ScriptableObjectUtility.cs using Guid(4d54a29ddd5b52b4eaa07ed39c0e3e83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad38ba602c452a3f9095fe16565659dd') in 0.010811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cd60be8329cab6e40d8699de1678de0') in 0.014997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mirror/Components/Discovery/NetworkDiscovery.cs
+  artifactKey: Guid(c761308e733c51245b2e8bb4201f46dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Components/Discovery/NetworkDiscovery.cs using Guid(c761308e733c51245b2e8bb4201f46dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b38f3d7e99336b2a77d0fef1402ebdf') in 0.014651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mirror/Editor/Weaver/WeaverExceptions.cs
+  artifactKey: Guid(8aaaf6193bad7424492677f8e81f1b30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Weaver/WeaverExceptions.cs using Guid(8aaaf6193bad7424492677f8e81f1b30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '107aea4913569b7260309770d445755a') in 0.009734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mirror/Editor/Weaver/Writers.cs
+  artifactKey: Guid(a90060ad76ea044aba613080dd922709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Weaver/Writers.cs using Guid(a90060ad76ea044aba613080dd922709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4dd6346779d8e1ffa46a1be59766db4b') in 0.010401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5dae24d4e5f41a7323a76a861c94ffa1') in 0.019246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef
+  artifactKey: Guid(1d0b9d21c3ff546a4aa32399dfd33474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Weaver/Unity.Mirror.CodeGen.asmdef using Guid(1d0b9d21c3ff546a4aa32399dfd33474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad3218fd7711f4e613e78c470e5b3745') in 0.015214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '040ce19092be358997cfae6bbd8c3ca8') in 0.013792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mirror/Editor/Weaver/AssemblyInfo.cs
+  artifactKey: Guid(929924d95663264478d4238d4910d22e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Weaver/AssemblyInfo.cs using Guid(929924d95663264478d4238d4910d22e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9d9eb78f8adf7a5e7d22b2fb1df98b6') in 0.011093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mirror/Editor/NetworkBehaviourInspector.cs
+  artifactKey: Guid(f02853db46b6346e4866594a96c3b0e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/NetworkBehaviourInspector.cs using Guid(f02853db46b6346e4866594a96c3b0e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7283efaaf085ef635ed9267de368abc') in 0.011474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mirror/Runtime/Mathd.cs
+  artifactKey: Guid(5f74084b91c74df2839b426c4a381373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Mathd.cs using Guid(5f74084b91c74df2839b426c4a381373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cd477e95cf02e334587ae98849b4ee4') in 0.011465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mirror/Components/Experimental/NetworkRigidbody.cs
+  artifactKey: Guid(83392ae5c1b731446909f252fd494ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Components/Experimental/NetworkRigidbody.cs using Guid(83392ae5c1b731446909f252fd494ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a18d722c1d9abaaf69e59b21b6e6bf2') in 0.013298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '104030dda4a5f80689fdaeb73e584e59') in 0.015467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.114496 seconds.
+  path: Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll
+  artifactKey: Guid(307911e5ad044dd42b1649eb8637aaf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll using Guid(307911e5ad044dd42b1649eb8637aaf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84c1cbd3e3f4c0afa4265aef1be0da72') in 0.025817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Mirror/Runtime/Empty/NetworkSceneChecker.cs
+  artifactKey: Guid(b7fdb599e1359924bad6255660370252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Empty/NetworkSceneChecker.cs using Guid(b7fdb599e1359924bad6255660370252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '770ed078150be41f3dff39f69034a848') in 0.015557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mirror/Runtime/Empty/LogFilter.cs
+  artifactKey: Guid(f6928b080072948f7b2909b4025fcc79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Empty/LogFilter.cs using Guid(f6928b080072948f7b2909b4025fcc79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64bf1894286532385aa62be05ed83135') in 0.011553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mirror/Runtime/Empty/NetworkMatchChecker.cs
+  artifactKey: Guid(1020a74962faada4b807ac5dc053a4cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Empty/NetworkMatchChecker.cs using Guid(1020a74962faada4b807ac5dc053a4cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e0caf254eacc5bd0e7dceb86d636e6f') in 0.010799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mirror/Editor/Weaver/Processors/MonoBehaviourProcessor.cs
+  artifactKey: Guid(35c16722912b64af894e4f6668f2e54c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Weaver/Processors/MonoBehaviourProcessor.cs using Guid(35c16722912b64af894e4f6668f2e54c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35a66eda1cead729bff2088ba21df2e6') in 0.011225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Scripts/PlayerCamera.cs
+  artifactKey: Guid(22976424f775a0f4a8531e6713ff6de2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Scripts/PlayerCamera.cs using Guid(22976424f775a0f4a8531e6713ff6de2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4723a532cd97814731f5c7db0c0251d') in 0.013208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Textures/Back_Tex.jpeg
+  artifactKey: Guid(1566af6e663684dbd85aa5fb32fd9148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Textures/Back_Tex.jpeg using Guid(1566af6e663684dbd85aa5fb32fd9148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1299e293fb0896987c2af0a7dc1d9034') in 0.059458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mirror/Editor/Weaver/Empty/SyncEventProcessor.cs
+  artifactKey: Guid(a5d8b25543a624384944b599e5a832a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Weaver/Empty/SyncEventProcessor.cs using Guid(a5d8b25543a624384944b599e5a832a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff442b1f2da800b7138a35e59ea5c8db') in 0.010441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Prefabs/Cube.prefab
+  artifactKey: Guid(7c6a0a278eba11e44b9a86cd4da603df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Prefabs/Cube.prefab using Guid(7c6a0a278eba11e44b9a86cd4da603df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83b6f007cb65a27389fee6b718dfcb8c') in 0.024493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Prefabs/Sphere.prefab
+  artifactKey: Guid(e588080aa542be54d9ca9d5c734dc9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Prefabs/Sphere.prefab using Guid(e588080aa542be54d9ca9d5c734dc9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1f2d8bd08ecf395a7b9db450789a20c') in 0.020640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Mirror/Editor/Weaver/Empty/Program.cs
+  artifactKey: Guid(0152994c9591626408fcfec96fcc7933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Editor/Weaver/Empty/Program.cs using Guid(0152994c9591626408fcfec96fcc7933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55df0766727c3402ab23222d83528b92') in 0.010009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Scenes/SubLevel2.unity
+  artifactKey: Guid(e8e2dc8c3ef824b468c6f6e1980a4b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Scenes/SubLevel2.unity using Guid(e8e2dc8c3ef824b468c6f6e1980a4b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e50405f5cd4dd1e0c785aba5c78c98b2') in 0.010231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mirror/Runtime/Empty/StringHash.cs
+  artifactKey: Guid(733f020f9b76d453da841089579fd7a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Empty/StringHash.cs using Guid(733f020f9b76d453da841089579fd7a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc70b4688d5dcac6d99ca521a5fd3398') in 0.009813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068546 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/AnimationControllers/Tank.controller
+  artifactKey: Guid(e0dbc8b2f2711a54f9b7ed1358a4c6af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/AdditiveScenes/AnimationControllers/Tank.controller using Guid(e0dbc8b2f2711a54f9b7ed1358a4c6af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e7d6eb2f753bfe6e5b5ac154fe14ac3') in 0.034804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mirror/Runtime/Empty/Cloud/Extensions.cs
+  artifactKey: Guid(97501e783fc67a4459b15d10e6c63563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Empty/Cloud/Extensions.cs using Guid(97501e783fc67a4459b15d10e6c63563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b48c5fd6c4937b59fab9bf06ed85cc7') in 0.010199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Scenes/Main.unity
+  artifactKey: Guid(0fa8b7965660de64f8aefd6b64f18a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Scenes/Main.unity using Guid(0fa8b7965660de64f8aefd6b64f18a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a286cd91a9b0df9801b2dca2122b6b8') in 0.009223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Floor.physicMaterial
+  artifactKey: Guid(df195ce493ed09b4c929f832263ba617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Floor.physicMaterial using Guid(df195ce493ed09b4c929f832263ba617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d010a723dd58e1d38e4d9e73810b4f7') in 0.021412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mirror/Runtime/Empty/Cloud/ServerListManager.cs
+  artifactKey: Guid(bfc354d4a7f63ca45a653bf5d479afa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Empty/Cloud/ServerListManager.cs using Guid(bfc354d4a7f63ca45a653bf5d479afa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95f2cee23ad1208bd27e5cabbaaad3ba') in 0.009922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mirror/Examples/Pong/Sprites/Racket.png
+  artifactKey: Guid(619ccff3ba2f2a04f9ddd19c264a1ecd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Pong/Sprites/Racket.png using Guid(619ccff3ba2f2a04f9ddd19c264a1ecd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4c2d05b5518b295112dd296c7b0f293') in 0.030150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mirror/Examples/Chat/Scripts/ChatUI.cs
+  artifactKey: Guid(2c102f62d739545269250f48327d4429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Chat/Scripts/ChatUI.cs using Guid(2c102f62d739545269250f48327d4429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '191ca3f6792ab4b3673e6c08c012a78f') in 0.012417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Scenes/BounceScene.unity
+  artifactKey: Guid(b42449e4a64f03a42b999b0c118df11b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Scenes/BounceScene.unity using Guid(b42449e4a64f03a42b999b0c118df11b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78c9bbd0fadd9067d2dd290fcbe07ebf') in 0.010335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Scripts/AdditiveNetworkManager.cs
+  artifactKey: Guid(34d1daf9e7dbcb64aa647cb332054ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Scripts/AdditiveNetworkManager.cs using Guid(34d1daf9e7dbcb64aa647cb332054ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ce09353d458d899940ccf3d62e69687') in 0.011008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mirror/Examples/Discovery/Prefabs/Player.prefab
+  artifactKey: Guid(ecd52c53a6ef7496693343d3e32dace1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Discovery/Prefabs/Player.prefab using Guid(ecd52c53a6ef7496693343d3e32dace1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd1cdfecd9a2a99b5efa494837fcad71') in 0.019723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mirror/Examples/MultipleMatches/Prefabs/PlayerGUI.prefab
+  artifactKey: Guid(504f86497324bc040be44f6f88b6cc73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/MultipleMatches/Prefabs/PlayerGUI.prefab using Guid(504f86497324bc040be44f6f88b6cc73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a32b8412dcf5dc2b33dbef78e0243d9') in 0.035518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/Reward.cs
+  artifactKey: Guid(10da7fdf8caa1eb4697658bf129457fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/Reward.cs using Guid(10da7fdf8caa1eb4697658bf129457fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d697213f030f1a084db13acf01d737e') in 0.009486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Prefabs/Empty Player.prefab
+  artifactKey: Guid(4ab0a427bdc13244499c6e044ad7eb40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Prefabs/Empty Player.prefab using Guid(4ab0a427bdc13244499c6e044ad7eb40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47de77b9480417a5450c9e06ab5e2bdb') in 0.014965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mirror/Examples/Tanks/Prefabs/Projectile.prefab
+  artifactKey: Guid(b7dd46dbf38c643f09e206f9fa4be008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Tanks/Prefabs/Projectile.prefab using Guid(b7dd46dbf38c643f09e206f9fa4be008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfeaa0368b7c8cd6385dd3c1c487acc9') in 0.015625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mirror/Examples/Tanks/Scripts/Projectile.cs
+  artifactKey: Guid(8f49b83f111a64bc7a5275af4f6f930b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Tanks/Scripts/Projectile.cs using Guid(8f49b83f111a64bc7a5275af4f6f930b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd3829ba3146f7b4de4b0fa464e24df9') in 0.009491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Scripts/PlayerCamera.cs
+  artifactKey: Guid(437e9ed1a55931845bef07e2f5ef57e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Scripts/PlayerCamera.cs using Guid(437e9ed1a55931845bef07e2f5ef57e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edf7e218dbcfe2d0da985e7bd20468da') in 0.007840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mirror/Examples/Room/Materials/Textures/Wall01_n.tga
+  artifactKey: Guid(1ef4aad253cf7e9488305da905643f09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Room/Materials/Textures/Wall01_n.tga using Guid(1ef4aad253cf7e9488305da905643f09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35b1e3081b82c3769625e20b08093bac') in 0.025599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mirror/Runtime/Transports/Telepathy/TelepathyTransport.cs
+  artifactKey: Guid(c7424c1070fad4ba2a7a96b02fbeb4bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/Telepathy/TelepathyTransport.cs using Guid(c7424c1070fad4ba2a7a96b02fbeb4bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f29dab11c42d1a209631b2643c3fe6b6') in 0.013279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Metallic.png
+  artifactKey: Guid(a7467e18a834e4d1390091c8b1ea562c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Metallic.png using Guid(a7467e18a834e4d1390091c8b1ea562c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b682e8f00bdd8a67d71062f46b4ad179') in 0.020352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Controller.controller
+  artifactKey: Guid(a7211483bbd794b6d85ed88576e7d85c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Controller.controller using Guid(a7211483bbd794b6d85ed88576e7d85c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6175eef379fb3c299c4076c507b6bba') in 0.011506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.asmdef
+  artifactKey: Guid(3b5390adca4e2bb4791cb930316d6f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.asmdef using Guid(3b5390adca4e2bb4791cb930316d6f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f672936357d0699feebf010b8077be4') in 0.015314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Pool.cs
+  artifactKey: Guid(35c07818fc4784bb4ba472c8e5029002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/KCP/kcp2k/kcp/Pool.cs using Guid(35c07818fc4784bb4ba472c8e5029002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2ad3f90da1a3719bea0e92a9202649c') in 0.009456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mirror/Runtime/Transports/SimpleWebTransport/Client/Webgl/WebSocketClientWebGl.cs
+  artifactKey: Guid(015c5b1915fd1a64cbe36444d16b2f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/SimpleWebTransport/Client/Webgl/WebSocketClientWebGl.cs using Guid(015c5b1915fd1a64cbe36444d16b2f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '127b2dc4c63406c7c34932b31241b681') in 0.011299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mirror/Runtime/Transports/SimpleWebTransport/Client/Webgl/SimpleWebJSLib.cs
+  artifactKey: Guid(97b96a0b65c104443977473323c2ff35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/SimpleWebTransport/Client/Webgl/SimpleWebJSLib.cs using Guid(97b96a0b65c104443977473323c2ff35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4679b93b2f34a3318d9699303d826c6') in 0.011998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/BoundsControl/Scenes/BoundsControlRuntimeExample.unity
+  artifactKey: Guid(17af63fd0345a35438ae25ed53401ba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/BoundsControl/Scenes/BoundsControlRuntimeExample.unity using Guid(17af63fd0345a35438ae25ed53401ba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dbeb14933b839496fd7819145142b7b') in 0.013795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mirror/Runtime/Transports/SimpleWebTransport/Common/ReceiveLoop.cs
+  artifactKey: Guid(a26c2815f58431c4a98c158c8b655ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/SimpleWebTransport/Common/ReceiveLoop.cs using Guid(a26c2815f58431c4a98c158c8b655ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c35fa8b0dc286775b41bf40aa452b346') in 0.010585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Mirror/Runtime/Transports/SimpleWebTransport/Common/BufferPool.cs
+  artifactKey: Guid(94ae50f3ec35667469b861b12cd72f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/SimpleWebTransport/Common/BufferPool.cs using Guid(94ae50f3ec35667469b861b12cd72f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65bb4ed4700c9286929c84a175ebfee7') in 0.010493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpClient.cs
+  artifactKey: Guid(6aa069a28ed24fedb533c102d9742b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/KcpClient.cs using Guid(6aa069a28ed24fedb533c102d9742b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd19183ea1a0e431f0be7fbf3cf22dd03') in 0.010291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - LookAndPinch/General/Profile/LookAndPinchDemoPointerProfile.asset
+  artifactKey: Guid(5cb3c564e5edc0d48a5547fe86ede522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - LookAndPinch/General/Profile/LookAndPinchDemoPointerProfile.asset using Guid(5cb3c564e5edc0d48a5547fe86ede522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '877366ad765e0990aeca6dee8c14043b') in 0.139277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mirror/Runtime/Transports/SimpleWebTransport/Client/StandAlone/ClientHandshake.cs
+  artifactKey: Guid(3ffdcabc9e28f764a94fc4efc82d3e8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/SimpleWebTransport/Client/StandAlone/ClientHandshake.cs using Guid(3ffdcabc9e28f764a94fc4efc82d3e8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d2ed9717b61fdcd6c6e1cb53e21fda7') in 0.012448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/ProgressIndicator/Scripts/ProgressIndicatorDemoAsyncMethod.cs
+  artifactKey: Guid(dad4b659b9f28c34daf1786e7bb07977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/ProgressIndicator/Scripts/ProgressIndicatorDemoAsyncMethod.cs using Guid(dad4b659b9f28c34daf1786e7bb07977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61ac1e94d095a543b708c2a7c89bdfa6') in 0.009925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/ProgressIndicator/Scripts/ProgressIndicatorDemo.cs
+  artifactKey: Guid(96f9fbf64044dbe46821efaaa5f3f825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/ProgressIndicator/Scripts/ProgressIndicatorDemo.cs using Guid(96f9fbf64044dbe46821efaaa5f3f825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '481bf537ddea68bb0e74583b4740afe1') in 0.010677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/BoundsControl/Scripts/BoundsControlRuntimeExample.cs
+  artifactKey: Guid(9c4729c09ee8e644fb457e1db1945d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/BoundsControl/Scripts/BoundsControlRuntimeExample.cs using Guid(9c4729c09ee8e644fb457e1db1945d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ac6f5ae1b2575d8dea067af5c85dc11') in 0.010211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/Interactables/Scripts/CustomInteractablesReceiver.cs
+  artifactKey: Guid(447d232efa5d5b14482fc84c26a15a22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/Interactables/Scripts/CustomInteractablesReceiver.cs using Guid(447d232efa5d5b14482fc84c26a15a22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '944bdd55ecbbced36c086fe333896d58') in 0.012035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/ObjectManipulator/Scripts/ReturnToBounds.cs
+  artifactKey: Guid(10b8dea5113c50c4fb9167c6a952e11f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/ObjectManipulator/Scripts/ReturnToBounds.cs using Guid(10b8dea5113c50c4fb9167c6a952e11f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '239f93d42014ad9201e1295b85e2ff75') in 0.013066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/Dialog/Scenes/DialogExample.unity
+  artifactKey: Guid(245313338ea69944ab8e537d014475a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/Dialog/Scenes/DialogExample.unity using Guid(245313338ea69944ab8e537d014475a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b47243038e5d4314ca4a93aecd2f1248') in 0.009637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mirror/Runtime/Transports/KCP/kcp2k/where-allocation/Scripts/AssemblyInfo.cs
+  artifactKey: Guid(158a96a7489b450485a8b06a13328871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/KCP/kcp2k/where-allocation/Scripts/AssemblyInfo.cs using Guid(158a96a7489b450485a8b06a13328871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3f525edcd979b563c64d2dc9911940d') in 0.010630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/Lines/Scenes/LineExamples.unity
+  artifactKey: Guid(195db5215d5947f8888e1168ad5e3337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/Lines/Scenes/LineExamples.unity using Guid(195db5215d5947f8888e1168ad5e3337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56b01939f15a0c8fa9dbd93f7bf413f0') in 0.010492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/ObjectManipulator/Scenes/ObjectManipulatorExample.unity
+  artifactKey: Guid(e6b9c2a97e9efe14190d15e2542a8b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/ObjectManipulator/Scenes/ObjectManipulatorExample.unity using Guid(e6b9c2a97e9efe14190d15e2542a8b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20a3ec339a58985413ca53434ef56da6') in 0.010540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/BoundsControl/Scenes/BoundsControlConfigs/CoffeeCupTranslateHandlesConfiguration.asset
+  artifactKey: Guid(fe5a4765d0bf1eb4080d8383440eb2fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - UX/BoundsControl/Scenes/BoundsControlConfigs/CoffeeCupTranslateHandlesConfiguration.asset using Guid(fe5a4765d0bf1eb4080d8383440eb2fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db4ef3bc09133abc5bbb00a4f03d4ba0') in 0.040551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpServerNonAlloc.cs
+  artifactKey: Guid(54b8398dcd544c8a93bcad846214cc40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/KCP/kcp2k/highlevel/NonAlloc/KcpServerNonAlloc.cs using Guid(54b8398dcd544c8a93bcad846214cc40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b15b76dfc189c67e92ab4c952760e836') in 0.009794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mirror/Examples/Room/Scripts/NetworkRoomPlayerExt.cs
+  artifactKey: Guid(41fc608223969754e817c29908fdb1d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Room/Scripts/NetworkRoomPlayerExt.cs using Guid(41fc608223969754e817c29908fdb1d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea15fa9b00de92712fdcf82805a86f3c') in 0.010799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mirror/Runtime/Transports/Telepathy/Telepathy/Empty/Message.cs
+  artifactKey: Guid(aedf812e9637b4f92a35db1aedca8c92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Runtime/Transports/Telepathy/Telepathy/Empty/Message.cs using Guid(aedf812e9637b4f92a35db1aedca8c92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0beec833811fac862a40a8efc7a3561d') in 0.010316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - LookAndPinch/Scenes/LookAndPinchDemo-02-TargetSelection.unity
+  artifactKey: Guid(068fcc671b1e57d4b893f9c8737f696b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.1/Demos - LookAndPinch/Scenes/LookAndPinchDemo-02-TargetSelection.unity using Guid(068fcc671b1e57d4b893f9c8737f696b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4738fb223499d0b21d6d6857d581c66e') in 0.008914 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
