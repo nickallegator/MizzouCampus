@@ -20,6 +20,8 @@ public class CrossPlayNetworkManager : NetworkManager
 
     public GameObject HololensPlayerPrefab;
 
+    public GameObject hololensPlayer;
+
     public Device editorDevice;
 
     public override void OnStartServer()
@@ -28,19 +30,37 @@ public class CrossPlayNetworkManager : NetworkManager
         NetworkServer.RegisterHandler<CharacterCreatorMessage>(OnCreateCharacter);
     }
 
+    
     public override void OnClientConnect()
     {
         base.OnClientConnect();
 
-        //send the message here
-        //the message should be defined above this class in a NetworkMessage
-        CharacterCreatorMessage characterMessage = new CharacterCreatorMessage
+        // Hololens2 is only ARM build target at the moument. If the project is expanded will
+        // Need to differentiate between ARM devices
+        CharacterCreatorMessage characterMessage;
+        if (Application.platform == RuntimePlatform.WSAPlayerARM)
         {
-            device = editorDevice
-        };
+            characterMessage = new CharacterCreatorMessage
+            {
+                device = Device.HoloLens
+            };
+        }
+        // Defaults to editor device
+        else
+        {
+            characterMessage = new CharacterCreatorMessage
+            {
+                device = editorDevice
+            };
+        }
 
         NetworkClient.connection.Send(characterMessage);
 
+    }
+
+    public override void OnStartHost()
+    {
+        Debug.Log(this.networkAddress);
     }
 
     void OnCreateCharacter(NetworkConnectionToClient conn, CharacterCreatorMessage message)
@@ -49,6 +69,7 @@ public class CrossPlayNetworkManager : NetworkManager
         Debug.Log("Create character");
         if (message.device.Equals(Device.HoloLens))
         {
+            Destroy(hololensPlayer);
             GameObject player = Instantiate(HololensPlayerPrefab);
             player.name = $"{HololensPlayerPrefab.name} [connId={conn.connectionId}]";
             NetworkServer.AddPlayerForConnection(conn, player);

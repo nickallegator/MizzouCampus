@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CrossPlayNetworkManager
+    - HololensHUD
     - Player
     Microsoft.Maps.Unity.SupportingScripts.dll:
     - Microsoft.Maps.Unity.MapCopyrightLayer
@@ -12,6 +13,9 @@ ScriptsOnlyBuild:
     - Microsoft.Maps.Unity.DefaultModelTileLayer
     - Microsoft.Maps.Unity.DefaultTextureTileLayer
     - Microsoft.Maps.Unity.MapSession
+    Microsoft.MixedReality.GraphicsTools.dll:
+    - Microsoft.MixedReality.GraphicsTools.FrontPlatePulse
+    - Microsoft.MixedReality.GraphicsTools.ProximityLight
     Microsoft.MixedReality.OpenXR.dll:
     - Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile
     - Microsoft.MixedReality.OpenXR.HandTrackingFeaturePlugin
@@ -19,8 +23,51 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.OpenXR.MotionControllerFeaturePlugin
     - Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin
     - Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin
+    Microsoft.MixedReality.Toolkit.Core.dll:
+    - Microsoft.MixedReality.Toolkit.ControllerLookup
+    - Microsoft.MixedReality.Toolkit.HandBounds
+    - Microsoft.MixedReality.Toolkit.MRTKProfile
+    - Microsoft.MixedReality.Toolkit.Subsystems.MRTKLifecycleManager
+    - Microsoft.MixedReality.Toolkit.UXBindingProfileTemplate
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
+    Microsoft.MixedReality.Toolkit.Input.dll:
+    - Microsoft.MixedReality.Toolkit.Input.ArticulatedHandController
+    - Microsoft.MixedReality.Toolkit.Input.BezierDataProvider
+    - Microsoft.MixedReality.Toolkit.Input.BezierInertia
+    - Microsoft.MixedReality.Toolkit.Input.FollowJoint
+    - Microsoft.MixedReality.Toolkit.Input.FuzzyGazeInteractor
+    - Microsoft.MixedReality.Toolkit.Input.GazeController
+    - Microsoft.MixedReality.Toolkit.Input.GazePinchInteractor
+    - Microsoft.MixedReality.Toolkit.Input.GrabInteractor
+    - Microsoft.MixedReality.Toolkit.Input.HandVisualizer
+    - Microsoft.MixedReality.Toolkit.Input.InteractionDetector
+    - Microsoft.MixedReality.Toolkit.Input.InteractionModeManager
+    - Microsoft.MixedReality.Toolkit.Input.InteractorDwellManager
+    - Microsoft.MixedReality.Toolkit.Input.MRTKHandsAggregatorConfig
+    - Microsoft.MixedReality.Toolkit.Input.MRTKRayInteractor
+    - Microsoft.MixedReality.Toolkit.Input.MRTKRayInteractorVisual
+    - Microsoft.MixedReality.Toolkit.Input.NearInteractionModeDetector
+    - Microsoft.MixedReality.Toolkit.Input.PokeInteractor
+    - Microsoft.MixedReality.Toolkit.Input.ReticleMagnetism
+    - Microsoft.MixedReality.Toolkit.Input.RingReticle
+    - Microsoft.MixedReality.Toolkit.Input.Simulation.InputSimulator
+    - Microsoft.MixedReality.Toolkit.Input.SpeechInteractor
+    - Microsoft.MixedReality.Toolkit.Input.SyntheticHandsConfig
+    Microsoft.MixedReality.Toolkit.SpatialManipulation.dll:
+    - Microsoft.MixedReality.Toolkit.SpatialManipulation.ConstraintManager
+    - Microsoft.MixedReality.Toolkit.SpatialManipulation.FaceUserConstraint
+    - Microsoft.MixedReality.Toolkit.SpatialManipulation.HandConstraintPalmUp
+    - Microsoft.MixedReality.Toolkit.SpatialManipulation.ObjectManipulator
+    - Microsoft.MixedReality.Toolkit.SpatialManipulation.SolverHandler
+    Microsoft.MixedReality.Toolkit.UXCore.dll:
+    - Microsoft.MixedReality.Toolkit.UX.InteractablePulse
+    - Microsoft.MixedReality.Toolkit.UX.ObjectBar
+    - Microsoft.MixedReality.Toolkit.UX.ObjectBarAddRemoveItems
+    - Microsoft.MixedReality.Toolkit.UX.PressableButton
+    - Microsoft.MixedReality.Toolkit.UX.StateVisualizer
+    - Microsoft.MixedReality.Toolkit.UX.StatefulInteractableSpriteToggleVisuals
+    - Microsoft.MixedReality.Toolkit.UX.UXBindingConfigurator
     Mirror.Components.dll:
     - Mirror.NetworkTransform
     Mirror.dll:
@@ -29,9 +76,12 @@ ScriptsOnlyBuild:
     - Mirror.NetworkManagerHUD
     - kcp2k.KcpTransport
     Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.XR.TrackedPoseDriver
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -39,6 +89,17 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
+    Unity.XR.ARFoundation.dll:
+    - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.CoreUtils.dll:
+    - Unity.XR.CoreUtils.XROrigin
+    Unity.XR.Interaction.Toolkit.Editor.dll:
+    - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
+    Unity.XR.Interaction.Toolkit.dll:
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
+    - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -73,6 +134,42 @@ ScriptsOnlyBuild:
     - Microsoft.Maps.Unity.LanguageChangedEvent
     - Microsoft.Maps.Unity.LatLonWrapper
     - Microsoft.Maps.Unity.TextureTileLayerList
+    Microsoft.MixedReality.GraphicsTools:
+    - Microsoft.MixedReality.GraphicsTools.ProximityLight/LightSettings
+    Microsoft.MixedReality.Toolkit.Core:
+    - Microsoft.MixedReality.Toolkit.ClassDataBindingProfile
+    - Microsoft.MixedReality.Toolkit.DataBindingProfile
+    - Microsoft.MixedReality.Toolkit.SerializableDictionary`2/SerializableDictionaryEntry[Microsoft.MixedReality.Toolkit.SystemType,Microsoft.MixedReality.Toolkit.BaseSubsystemConfig]
+    - Microsoft.MixedReality.Toolkit.SerializableDictionary`2/SerializableDictionaryEntry[System.String,Microsoft.MixedReality.Toolkit.UX.StateVisualizer/State]
+    - Microsoft.MixedReality.Toolkit.SerializableDictionary`2[Microsoft.MixedReality.Toolkit.SystemType,Microsoft.MixedReality.Toolkit.BaseSubsystemConfig]
+    - Microsoft.MixedReality.Toolkit.SerializableDictionary`2[System.String,Microsoft.MixedReality.Toolkit.UX.StateVisualizer/State]
+    - Microsoft.MixedReality.Toolkit.SerializableDictionary`2[UnityEngine.XR.Interaction.Toolkit.XRBaseController,Microsoft.MixedReality.Toolkit.Input.InteractionModeManager/ControllerInteractorStatus]
+    - Microsoft.MixedReality.Toolkit.StatefulTimerEvent
+    - Microsoft.MixedReality.Toolkit.SystemInterfaceType
+    - Microsoft.MixedReality.Toolkit.SystemType
+    - Microsoft.MixedReality.Toolkit.TimedFlag
+    Microsoft.MixedReality.Toolkit.Input:
+    - Microsoft.MixedReality.Toolkit.Input.BezierDataProvider/BezierPointSet
+    - Microsoft.MixedReality.Toolkit.Input.InteractionMode
+    - Microsoft.MixedReality.Toolkit.Input.InteractionModeDefinition
+    - Microsoft.MixedReality.Toolkit.Input.Simulation.CameraSimulationSettings
+    - Microsoft.MixedReality.Toolkit.Input.Simulation.ControllerSimulationSettings
+    - Microsoft.MixedReality.Toolkit.Input.Simulation.EyeGazeSimulationSettings
+    Microsoft.MixedReality.Toolkit.SpatialManipulation:
+    - Microsoft.MixedReality.Toolkit.SpatialManipulation.ObjectManipulator/LogicType
+    Microsoft.MixedReality.Toolkit.UXCore:
+    - Microsoft.MixedReality.Toolkit.UX.AnimationEffect
+    - Microsoft.MixedReality.Toolkit.UX.GraphicTintEffect
+    - Microsoft.MixedReality.Toolkit.UX.SetTargetsActiveEffect
+    - Microsoft.MixedReality.Toolkit.UX.SpriteTintEffect
+    - Microsoft.MixedReality.Toolkit.UX.StateVisualizer/State
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputActionProperty
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -87,14 +184,120 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    Unity.XR.Interaction.Toolkit:
+    - UnityEngine.XR.Interaction.Toolkit.ActivateEvent
+    - UnityEngine.XR.Interaction.Toolkit.DeactivateEvent
+    - UnityEngine.XR.Interaction.Toolkit.HoverEnterEvent
+    - UnityEngine.XR.Interaction.Toolkit.HoverExitEvent
+    - UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask
+    - UnityEngine.XR.Interaction.Toolkit.SelectEnterEvent
+    - UnityEngine.XR.Interaction.Toolkit.SelectExitEvent
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractableEvent
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractorEvent
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
-  methodsToPreserve: []
+    UnityEngine.UI:
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+  methodsToPreserve:
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_sharedMaterial
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Microsoft.MixedReality.Toolkit.Core
+    fullTypeName: Microsoft.MixedReality.Toolkit.StatefulInteractable
+    methodName: ForceSetToggled
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Renderer
+    methodName: set_sharedMaterial
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: HololensHUD
+    methodName: Host
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: HololensHUD
+    methodName: ConnectToAddress
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: HololensHUD
+    methodName: TestConnectionUI
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   sceneClasses:
     Assets/Scenes/Main.unity:
     - Class: 1
@@ -117,61 +320,181 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4094}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 5060}
+      Script: {instanceID: 3192}
     - Class: 114
-      Script: {instanceID: 8172}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 9104}
+      Script: {instanceID: 3838}
     - Class: 114
-      Script: {instanceID: 9334}
+      Script: {instanceID: 3902}
     - Class: 114
-      Script: {instanceID: 9406}
+      Script: {instanceID: 4068}
     - Class: 114
-      Script: {instanceID: 9408}
+      Script: {instanceID: 4362}
     - Class: 114
-      Script: {instanceID: 9410}
+      Script: {instanceID: 4394}
     - Class: 114
-      Script: {instanceID: 9424}
+      Script: {instanceID: 4438}
     - Class: 114
-      Script: {instanceID: 10244}
+      Script: {instanceID: 4560}
     - Class: 114
-      Script: {instanceID: 10264}
+      Script: {instanceID: 4604}
     - Class: 114
-      Script: {instanceID: 10338}
+      Script: {instanceID: 5010}
     - Class: 114
-      Script: {instanceID: 10648}
+      Script: {instanceID: 5194}
     - Class: 114
-      Script: {instanceID: 10926}
+      Script: {instanceID: 5450}
     - Class: 114
-      Script: {instanceID: 11366}
+      Script: {instanceID: 5856}
+    - Class: 114
+      Script: {instanceID: 5946}
+    - Class: 114
+      Script: {instanceID: 6492}
+    - Class: 114
+      Script: {instanceID: 6706}
+    - Class: 114
+      Script: {instanceID: 6812}
+    - Class: 114
+      Script: {instanceID: 6892}
+    - Class: 114
+      Script: {instanceID: 6908}
+    - Class: 114
+      Script: {instanceID: 7326}
+    - Class: 114
+      Script: {instanceID: 7398}
+    - Class: 114
+      Script: {instanceID: 7442}
+    - Class: 114
+      Script: {instanceID: 7736}
+    - Class: 114
+      Script: {instanceID: 7836}
+    - Class: 114
+      Script: {instanceID: 7946}
+    - Class: 114
+      Script: {instanceID: 8916}
+    - Class: 114
+      Script: {instanceID: 9128}
+    - Class: 114
+      Script: {instanceID: 9822}
+    - Class: 114
+      Script: {instanceID: 9956}
+    - Class: 114
+      Script: {instanceID: 10202}
+    - Class: 114
+      Script: {instanceID: 10280}
+    - Class: 114
+      Script: {instanceID: 10282}
+    - Class: 114
+      Script: {instanceID: 10284}
+    - Class: 114
+      Script: {instanceID: 10298}
+    - Class: 114
+      Script: {instanceID: 10396}
+    - Class: 114
+      Script: {instanceID: 10562}
+    - Class: 114
+      Script: {instanceID: 10568}
+    - Class: 114
+      Script: {instanceID: 10584}
+    - Class: 114
+      Script: {instanceID: 10710}
+    - Class: 114
+      Script: {instanceID: 10802}
+    - Class: 114
+      Script: {instanceID: 11082}
+    - Class: 114
+      Script: {instanceID: 11152}
+    - Class: 114
+      Script: {instanceID: 11214}
+    - Class: 114
+      Script: {instanceID: 11234}
+    - Class: 114
+      Script: {instanceID: 11314}
+    - Class: 114
+      Script: {instanceID: 11316}
     - Class: 114
       Script: {instanceID: 11658}
     - Class: 114
-      Script: {instanceID: 13076}
+      Script: {instanceID: 11730}
     - Class: 114
-      Script: {instanceID: 13124}
+      Script: {instanceID: 11960}
+    - Class: 114
+      Script: {instanceID: 12158}
+    - Class: 114
+      Script: {instanceID: 12344}
+    - Class: 114
+      Script: {instanceID: 12450}
+    - Class: 114
+      Script: {instanceID: 12464}
+    - Class: 114
+      Script: {instanceID: 12596}
+    - Class: 114
+      Script: {instanceID: 12772}
+    - Class: 114
+      Script: {instanceID: 13796}
+    - Class: 114
+      Script: {instanceID: 13882}
+    - Class: 114
+      Script: {instanceID: 14330}
+    - Class: 114
+      Script: {instanceID: 14382}
+    - Class: 114
+      Script: {instanceID: 14490}
+    - Class: 114
+      Script: {instanceID: 14580}
+    - Class: 114
+      Script: {instanceID: 14780}
+    - Class: 114
+      Script: {instanceID: 14944}
+    - Class: 114
+      Script: {instanceID: 39840}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -206,6 +529,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
       Hash: bcaee4c2a83047257b5f47d6ed264b75
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -234,6 +563,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.MultipleMatch
     className: MatchGUI
+  - hash:
+      serializedVersion: 2
+      Hash: bae01a8e782816baed9bde1d3727a4ca
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: FontIconSelector
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -266,12 +601,6 @@ ScriptsOnlyBuild:
     className: UnityOnScrollbarValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: LayoutElement
-  - hash:
-      serializedVersion: 2
       Hash: db1f0501e76a8e394583d06e24666945
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.Diagnostics
@@ -288,6 +617,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: f3af825f5133e0e031b4443d62a02e35
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit
+    className: StatefulInteractable
   - hash:
       serializedVersion: 2
       Hash: 6b79c73185865089dc9625e26d9c100a
@@ -314,6 +649,12 @@ ScriptsOnlyBuild:
     className: LatencySimulation
   - hash:
       serializedVersion: 2
+      Hash: 7a3d922f2b08a004ad6764d7bb4be292
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedController
+  - hash:
+      serializedVersion: 2
       Hash: a65ddc0f7111baa5d923e4580ff49ebc
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -336,6 +677,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror
     className: NetworkStatistics
+  - hash:
+      serializedVersion: 2
+      Hash: cbcba329b6375fc80724cdb84c225697
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: TeleportationArea
   - hash:
       serializedVersion: 2
       Hash: 28621120d95a07872c22feba9f3db60c
@@ -404,6 +751,12 @@ ScriptsOnlyBuild:
     className: MixedRealityToolkit
   - hash:
       serializedVersion: 2
+      Hash: 57a371edcae768b8b1a9afeb04f27af5
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: SliderVisuals
+  - hash:
+      serializedVersion: 2
       Hash: 6f1a7bf478686f9b2a14f524c902853b
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
@@ -458,10 +811,22 @@ ScriptsOnlyBuild:
     className: ClippingBox
   - hash:
       serializedVersion: 2
+      Hash: 8afd0435cb508da5e2cae86937da9045
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRTintInteractableVisual
+  - hash:
+      serializedVersion: 2
       Hash: 7bd0b8190b45177808bef6848a757f7c
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: ToolTipConnector
+  - hash:
+      serializedVersion: 2
+      Hash: 25c37862fa9cb15481d8d37eb9f2bb77
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: UXBindingConfigurator
   - hash:
       serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
@@ -492,6 +857,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: AutoAddInputModules
+  - hash:
+      serializedVersion: 2
+      Hash: dcec20f6a3e6efef3adeaab74ed5126f
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: DialogButton
   - hash:
       serializedVersion: 2
       Hash: bd5aa7dd8393a974a6fedbc9c7bd06f2
@@ -530,6 +901,12 @@ ScriptsOnlyBuild:
     className: CoroutineRunner
   - hash:
       serializedVersion: 2
+      Hash: c48f123600a52036c112df3de200f058
+    assemblyName: Microsoft.MixedReality.Toolkit.UXComponents.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: KeyboardPreview
+  - hash:
+      serializedVersion: 2
       Hash: 60c0bfb4f27fa9be3a8a1a4f5c4341d8
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
@@ -546,6 +923,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
     className: MicrosoftHandInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.CoreUtils.dll
+    namespaceName: Unity.XR.CoreUtils
+    className: OnDestroyNotifier
   - hash:
       serializedVersion: 2
       Hash: bda47d8d681c9b5fb4c4602acb4727e6
@@ -566,6 +949,12 @@ ScriptsOnlyBuild:
     className: RectangleLineDataProvider
   - hash:
       serializedVersion: 2
+      Hash: 3901fcdbdb321302fafb9c29e23e4f20
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: PokeInteractor
+  - hash:
+      serializedVersion: 2
       Hash: 828a711267926aecd77de489601ef957
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Rendering
@@ -578,7 +967,7 @@ ScriptsOnlyBuild:
     className: InputSimulationHelpGuide
   - hash:
       serializedVersion: 2
-      Hash: ff00782dfe9743f1c03999fe3aa2ac2f
+      Hash: 9da3376d58991e0a76fee2600cac7d58
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorGraphicsToolsStandard
@@ -596,6 +985,12 @@ ScriptsOnlyBuild:
     className: MixedRealityPointerProfile
   - hash:
       serializedVersion: 2
+      Hash: 2bce056941efe53c3539f5cf5f332a4f
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: InteractorDwellManager
+  - hash:
+      serializedVersion: 2
       Hash: e75e9af6693e01ad2eb97c4cd44b08dd
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit
@@ -606,6 +1001,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.OnScreen
     className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: dda32ffa9d59b8eb1822fc59bdec67fa
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedSnapTurnProvider
   - hash:
       serializedVersion: 2
       Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
@@ -824,22 +1225,28 @@ ScriptsOnlyBuild:
     className: XRManagerSettings
   - hash:
       serializedVersion: 2
-      Hash: 77ec22a74057bb0e5e3f7dec39e5ceb2
-    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
-    className: MixedRealityKeyboard
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental
     className: BaseServiceManager
   - hash:
       serializedVersion: 2
+      Hash: 77ec22a74057bb0e5e3f7dec39e5ceb2
+    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
+    className: MixedRealityKeyboard
+  - hash:
+      serializedVersion: 2
       Hash: 64f3b91e6cee47d9c4a91c7f0bf09b2d
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: MixedRealityInputSystemProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 64cb060362e56141de4fb092bdfd178c
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: ReticleMagnetism
   - hash:
       serializedVersion: 2
       Hash: d8ae79fcd22b9d19b3bcfc9490f1eaf7
@@ -890,10 +1297,22 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: cb85dfbfe1201b1363f4f3bec048656f
+      Hash: 4efe5f564d36c37295fd0e7407c4ad9a
+    assemblyName: Unity.XR.CoreUtils.dll
+    namespaceName: Unity.XR.CoreUtils
+    className: XROrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 8619087315cfff371d1a9b0f4ffc3a19
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorGraphicsToolsTextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 63e8494d8961e584a57c5e4286e89c75
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: TeleportationProvider
   - hash:
       serializedVersion: 2
       Hash: 192ca9716d03752ea1d90a78bc2daac9
@@ -932,6 +1351,12 @@ ScriptsOnlyBuild:
     className: RotationAxisConstraint
   - hash:
       serializedVersion: 2
+      Hash: 524ce0d30b5888bcbad690b9f3fd2ccf
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARPlacementInteractable
+  - hash:
+      serializedVersion: 2
       Hash: 908b3077da284d11de0450423ca1808e
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -948,6 +1373,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: StripMeshLineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: d5a9c12eef79e64b07b86cf397559e6a
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: GazePinchInteractor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -974,10 +1405,22 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 93442d3ad1e82ae5f62fadafe36e46b0
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: FuzzyGazeInteractor
+  - hash:
+      serializedVersion: 2
       Hash: 448aaf8f8bf0df8174df165d9de2dff7
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: MixedRealityLineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 8efe7e1208161b145fd1b63bb1207a01
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: DeviceBasedContinuousMoveProvider
   - hash:
       serializedVersion: 2
       Hash: 352b1e7882a0f6bbdd6acd44da3e50ed
@@ -992,6 +1435,12 @@ ScriptsOnlyBuild:
     className: MatchController
   - hash:
       serializedVersion: 2
+      Hash: 28001aa31fd3c7ece1813fedb97b4140
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit
+    className: ControllerLookup
+  - hash:
+      serializedVersion: 2
       Hash: 00008c4945804d48ad0d4e2c22b160a0
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
@@ -1002,6 +1451,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARSubsystems.dll
     namespaceName: UnityEngine.XR.ARSubsystems
     className: XRReferenceImageLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 56578e9243f73ca32099dd8b41c7f28c
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: ConstraintManager
   - hash:
       serializedVersion: 2
       Hash: 426e5bd616852254b77531cd1a8e29b6
@@ -1046,7 +1501,7 @@ ScriptsOnlyBuild:
     className: NetworkRoomManager
   - hash:
       serializedVersion: 2
-      Hash: bad27d00e95650df455a1b4707d95161
+      Hash: 86af013a971145c0006a99b41eb87c08
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorCanvasBeveled
@@ -1106,6 +1561,18 @@ ScriptsOnlyBuild:
     className: ReorientContent
   - hash:
       serializedVersion: 2
+      Hash: ed02bab9d487a22ae674c53046013b42
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: RingReticle
+  - hash:
+      serializedVersion: 2
+      Hash: 5bb6eab44079d1fa82ba818615f65550
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: BoundsControl
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1152,6 +1619,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Pong
     className: Ball
+  - hash:
+      serializedVersion: 2
+      Hash: 011cfcc14efafc49b7191995c14f344d
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: HandVisualizer
   - hash:
       serializedVersion: 2
       Hash: 69501abcda51721514ce989f617b052f
@@ -1274,6 +1747,12 @@ ScriptsOnlyBuild:
     className: DepthBufferRenderer
   - hash:
       serializedVersion: 2
+      Hash: 219b6caaad9662ed6a7d81ee3a9cd53d
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedContinuousTurnProvider
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
@@ -1304,6 +1783,18 @@ ScriptsOnlyBuild:
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e2549d3a59249ea600e260df1932d6f7
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: TrackedDevicePhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c5cd30fe1e9afca766d6bc6df1b4462b
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: ConstantViewSize
+  - hash:
+      serializedVersion: 2
       Hash: c5d8dcb4678b1b541b27271618cce42a
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Physics
@@ -1328,10 +1819,22 @@ ScriptsOnlyBuild:
     className: PointerHandler
   - hash:
       serializedVersion: 2
+      Hash: 9c69646a0c902d3f02afaf7078787312
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: FaceUserConstraint
+  - hash:
+      serializedVersion: 2
       Hash: 5533bf86801a0862349535fd353342c0
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.Teleport
     className: TeleportSystemManager
+  - hash:
+      serializedVersion: 2
+      Hash: 394967a9e985e9f500a7abb65d4c08b5
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: ObjectBarAddRemoveItems
   - hash:
       serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
@@ -1430,6 +1933,12 @@ ScriptsOnlyBuild:
     className: TeleportHotspot
   - hash:
       serializedVersion: 2
+      Hash: e19f63733166ba64bf240549cbfe77a6
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit
+    className: MRTKBaseInteractable
+  - hash:
+      serializedVersion: 2
       Hash: 4566e5f236de2060736a23afcb716eae
     assemblyName: Assembly-CSharp.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
@@ -1442,10 +1951,28 @@ ScriptsOnlyBuild:
     className: CanvasController
   - hash:
       serializedVersion: 2
+      Hash: 0247b3226bce1611f95bef667f3a55b3
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: afe6701cdbc92a59505f2539664ad083
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: ScaleHandleInteractable
+  - hash:
+      serializedVersion: 2
       Hash: 5dea360fb0b147724ac344e6f399c2f3
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: ff25a2c393e9d6ad7ba44894904b8a50
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: SpeechInteractor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1494,6 +2021,18 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: MixedRealityGesturesProfile
+  - hash:
+      serializedVersion: 2
+      Hash: ee29c518c1506815647c105173f43312
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: DeviceBasedContinuousTurnProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 8caa7f6ac38158307c7e2406310e2bf6
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input.Simulation
+    className: InputSimulator
   - hash:
       serializedVersion: 2
       Hash: d3f29ba27f28c1f558880c4df5545ed3
@@ -1568,6 +2107,18 @@ ScriptsOnlyBuild:
     className: MixedRealityCameraProfile
   - hash:
       serializedVersion: 2
+      Hash: 4e7a9d3fce74afc29fcea8a05ef382cc
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: InteractionDetector
+  - hash:
+      serializedVersion: 2
+      Hash: b4a74f13e4c5c99d8bf24cd525dbd96d
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: InteractionModeManager
+  - hash:
+      serializedVersion: 2
       Hash: 9ed700a8f9b92c93b52e13ba401689ac
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Audio
@@ -1616,16 +2167,34 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: a7831da141552e39fb47ba8a0cb14d0d
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRDirectInteractor
+  - hash:
+      serializedVersion: 2
       Hash: 3e6ee621860cf1c84720d4f1686c3b2c
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Physics
     className: DistorterWiggly
   - hash:
       serializedVersion: 2
+      Hash: 2d22adb9be23ab6264808f74bae28251
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRSimpleInteractable
+  - hash:
+      serializedVersion: 2
       Hash: 88571ec7fccb00b41eb3574cfd660a9a
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: FocusHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 237b99ea3414dc43e55fadf825aa8f89
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARGestureInteractor
   - hash:
       serializedVersion: 2
       Hash: 097c8ad42e66aa4a5ef3991b17a2aa95
@@ -1656,6 +2225,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 338dc8a38b6269f2235e151037257b3e
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: Orbital
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
@@ -1724,16 +2299,34 @@ ScriptsOnlyBuild:
     className: ConstantViewSize
   - hash:
       serializedVersion: 2
+      Hash: fbd69d745e943abfece5876821f74622
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: StatefulInteractableSpriteToggleVisuals
+  - hash:
+      serializedVersion: 2
       Hash: c07dae8badc27c4068fcfa9cd76d39d1
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement
     className: CompressableButton
   - hash:
       serializedVersion: 2
+      Hash: b5c6e8ebeb45db62242b1abb0f53b3f0
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: UGUIInputAdapterDraggable
+  - hash:
+      serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
     className: OculusTouchControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: b03e9dcec4ab017064fc4556cb8dac80
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: ArticulatedHandController
   - hash:
       serializedVersion: 2
       Hash: e1c35cdce946e9da77fe80a39c261608
@@ -1758,6 +2351,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorGraphicsToolsWireframe
+  - hash:
+      serializedVersion: 2
+      Hash: 82d7e5a2e88c3a99fb49fb8fe876fb28
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: Follow
   - hash:
       serializedVersion: 2
       Hash: c59dc1bba542492c8123c309eab258b8
@@ -1856,6 +2455,18 @@ ScriptsOnlyBuild:
     className: StateMachine
   - hash:
       serializedVersion: 2
+      Hash: c108f689511ec9c2b6c82c311fc2f3ba
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation
+    className: XRDeviceSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 7a3d922f2b08a004ad6764d7bb4be292
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: GazeController
+  - hash:
+      serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
@@ -1922,7 +2533,7 @@ ScriptsOnlyBuild:
     className: MaintainBorderLightWidth
   - hash:
       serializedVersion: 2
-      Hash: a79e49c7d950fed24861d564bd86141b
+      Hash: 7b20ed7113fe7d6baf7f197b6352b4f8
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorCanvasGlow
@@ -1950,6 +2561,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: NearInteractionGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 2f5dc24416436e8ab1e97e45d7beccc9
+    assemblyName: Microsoft.MixedReality.Toolkit.UXComponents.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: UXThemeProfile
   - hash:
       serializedVersion: 2
       Hash: f664aacbef45bd80bc4accd3a65ac53a
@@ -1994,7 +2611,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 2a45e7f11b4d0602108f5d828c998c96
+      Hash: b61c9acd2ff0954e002739faeecf5526
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorCanvasProgressBar
@@ -2036,6 +2653,18 @@ ScriptsOnlyBuild:
     className: PhysicalPressEventRouter
   - hash:
       serializedVersion: 2
+      Hash: a56933f2ad2067fd2e0a2086c877ac3d
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Utilities
+    className: InteractableAnimatorVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: 3404ee9690ebdf5476c6f094d35ba914
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: InBetween
+  - hash:
+      serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
@@ -2060,6 +2689,18 @@ ScriptsOnlyBuild:
     className: LinksConfiguration
   - hash:
       serializedVersion: 2
+      Hash: 87e6cfc8015337aef5fa238bd355b16f
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRControllerRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: bcd0fc35266e8fdd4a4fe4f76152cba5
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: SyntheticHandsConfig
+  - hash:
+      serializedVersion: 2
       Hash: aa434e87e8d358827a4b2fc2d3a1966a
     assemblyName: Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
     namespaceName: Microsoft.MixedReality.Toolkit.LeapMotion.Input
@@ -2082,6 +2723,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.AdditiveLevels
     className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: d8a1264732af983c8251181bb361350c
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: ProximityDetector
   - hash:
       serializedVersion: 2
       Hash: 69e9f3e2c0050519390edbd27a650352
@@ -2120,10 +2767,22 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 69e9f3e2c0050519390edbd27a650352
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: RadialView
+  - hash:
+      serializedVersion: 2
       Hash: e9df10175dc0a56058fd4cd75a68e543
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: LinePointer
+  - hash:
+      serializedVersion: 2
+      Hash: afe6701cdbc92a59505f2539664ad083
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: BoundsHandleInteractable
   - hash:
       serializedVersion: 2
       Hash: 0bb3e034d584dcae978d3603617200e7
@@ -2150,13 +2809,19 @@ ScriptsOnlyBuild:
     className: AppBarButton
   - hash:
       serializedVersion: 2
+      Hash: 2d82c073b84b03cf0a14c985f1c3b914
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRInteractorLineVisual
+  - hash:
+      serializedVersion: 2
       Hash: 192ca9716d03752ea1d90a78bc2daac9
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
     className: RandomColor
   - hash:
       serializedVersion: 2
-      Hash: efc9941449b377190bd9fa6c87b4f036
+      Hash: 9753603368184688f74b84510a935245
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorGraphicsToolsStandardCanvas
@@ -2180,10 +2845,28 @@ ScriptsOnlyBuild:
     className: ARPointCloudMeshVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 46bb4031913b885748fd5f96156f3707
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: SurfaceMagnetism
+  - hash:
+      serializedVersion: 2
       Hash: 274877bd7e903b21c003536b3d4aec58
     assemblyName: Microsoft.Maps.Unity.SupportingScripts.dll
     namespaceName: Microsoft.Maps.Unity
     className: MapInteractionController
+  - hash:
+      serializedVersion: 2
+      Hash: f0cd5ee7f0608db6afb77aadf97abcb7
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: SliderSounds
+  - hash:
+      serializedVersion: 2
+      Hash: 2b94f31539988287b5d8b7060e36d9fe
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: StatefulInteractableSwitchToggleVisuals
   - hash:
       serializedVersion: 2
       Hash: 07a93b68941b766b305bf5fbcf77f41f
@@ -2204,6 +2887,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 0ba4f852acbdf2f4c8742687e6bd7efb
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: TeleportationAnchor
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -2220,6 +2909,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 46c9d79940426b49c36eef6ca33ed8e1
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: DirectionalIndicator
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -2240,6 +2935,18 @@ ScriptsOnlyBuild:
     className: RiggedHandVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 7ddd1e7ac00b055aa482a6db6bd23db2
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit
+    className: UXBindingProfileTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 26536c53ffc57c32da1333cbd900c118
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: ToggleCollection
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.AdditiveLevels
@@ -2250,6 +2957,18 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI.HandCoach
     className: HandInteractionHint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Subsystems
+    className: PhraseRecognitionSubsystemConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 5b2330da860cd1fc7110dfd2c3c1535f
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRRig
   - hash:
       serializedVersion: 2
       Hash: 1e8f8433ab95915661b91b88cf4ab919
@@ -2318,6 +3037,18 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Subsystems
+    className: HandsAggregatorConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 8ea91ba86692d8e81d2f08037d03d89a
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: SqueezableBoxVisuals
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -2348,6 +3079,12 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
+      Hash: b5c6e8ebeb45db62242b1abb0f53b3f0
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: UGUIInputAdapter
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -2370,6 +3107,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 7025bc0083a38ba9c436e01fd88e2692
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: TapToPlace
   - hash:
       serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
@@ -2456,6 +3199,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: ad83ecd3625c8ca8a820ef19fe47b73d
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: MRTKRayInteractorVisual
+  - hash:
+      serializedVersion: 2
       Hash: 802ea25fac59ef7a5dfb7eb06305cbf5
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -2472,6 +3221,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI.PulseShader
     className: PulseShaderHandMeshHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 404131a528b08fe66e7f13b070700400
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARSelectionInteractable
   - hash:
       serializedVersion: 2
       Hash: bc1f530247c15d1f14c400981b4af16f
@@ -2552,6 +3307,12 @@ ScriptsOnlyBuild:
     className: FeaturesPanelVisuals
   - hash:
       serializedVersion: 2
+      Hash: fe5ff6f4678876d628fccea49e667812
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: MinMaxScaleConstraint
+  - hash:
+      serializedVersion: 2
       Hash: 1dbd132b10e40fddd7a43258f453b9dd
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
@@ -2588,12 +3349,6 @@ ScriptsOnlyBuild:
     className: ResolveDuplicateScenesWindow
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: BaseInput
-  - hash:
-      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -2601,9 +3356,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Diagnostics
     className: VisualProfilerControl
+  - hash:
+      serializedVersion: 2
+      Hash: 2a3ee2b042aca4b4e717251910bb3696
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRGrabInteractable
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2660,10 +3427,22 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 6ed8fe641eb4dc044e9b99cce2c18b54
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: WindowsMRKeyboard
+  - hash:
+      serializedVersion: 2
       Hash: daba20037994367245375906a905a4f8
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
     className: ColorChanger
+  - hash:
+      serializedVersion: 2
+      Hash: b854e1a8a79400bce74b5cd76eef3a39
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: SolverHandler
   - hash:
       serializedVersion: 2
       Hash: 802ea25fac59ef7a5dfb7eb06305cbf5
@@ -2676,6 +3455,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: ButtonIconSet
+  - hash:
+      serializedVersion: 2
+      Hash: 8d82c0abea3d1b40abcb9c7b12d5d7df
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARScaleInteractable
   - hash:
       serializedVersion: 2
       Hash: 3dcd6b6cbfb94c3554d85b7d95f9749b
@@ -2714,10 +3499,22 @@ ScriptsOnlyBuild:
     className: DistorterSimplex
   - hash:
       serializedVersion: 2
+      Hash: c24b0c4ed62d8b7eabb5a4c9a20f4e00
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: InteractionLayerSettings
+  - hash:
+      serializedVersion: 2
       Hash: d79be48f820686024dd0d9e080d7733b
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 095be22098d0d0e8e797ac4834a873cd
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: ObjectBar
   - hash:
       serializedVersion: 2
       Hash: aff76abdea269596d108b2249387dc62
@@ -2736,6 +3533,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: SpeechConfirmationTooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRInteractionManager
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -2768,6 +3571,12 @@ ScriptsOnlyBuild:
     className: GUIConsole
   - hash:
       serializedVersion: 2
+      Hash: a5a3b80f82e5f1665038dc94949a5a40
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: ObjectManipulator
+  - hash:
+      serializedVersion: 2
       Hash: 41a11e5e12848af5569b858de4102ec9
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -2796,6 +3605,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
     className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8121b38f3e880c8309806af09d9476be
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: StateVisualAnimationAsset
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2846,6 +3661,12 @@ ScriptsOnlyBuild:
     className: ReceiverBaseMonoBehavior
   - hash:
       serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: Microsoft.MixedReality.Toolkit.UXComponents.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: MRTKUGUIInputField
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -2888,6 +3709,12 @@ ScriptsOnlyBuild:
     className: ARTrackedObjectManager
   - hash:
       serializedVersion: 2
+      Hash: d8c9c53ba0b1477ec5a91355304f709c
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: LocomotionSystem
+  - hash:
+      serializedVersion: 2
       Hash: 76eb44ba733054fa1ebc85ccc64177ea
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
@@ -2910,6 +3737,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d00147d84896b0017ca8610cee88f119
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: PressableButton
   - hash:
       serializedVersion: 2
       Hash: d165228985fb27863dd882ab50a15a33
@@ -2952,6 +3785,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness
     className: SurfaceMeshesToPlanes
+  - hash:
+      serializedVersion: 2
+      Hash: 0247b3226bce1611f95bef667f3a55b3
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: MRTKRayInteractor
   - hash:
       serializedVersion: 2
       Hash: 1bc03a501323d00d0037a6b76d25a3ba
@@ -3032,6 +3871,12 @@ ScriptsOnlyBuild:
     className: NetworkManagerHUD
   - hash:
       serializedVersion: 2
+      Hash: c22a611716cff8bbe46581063172ec67
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: NearInteractionModeDetector
+  - hash:
+      serializedVersion: 2
       Hash: 9b01b1d80bd3ecf4eaca45e1a22d444e
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror.Experimental
@@ -3080,6 +3925,12 @@ ScriptsOnlyBuild:
     className: ChatUI
   - hash:
       serializedVersion: 2
+      Hash: 173ab614f790541721f56589bf7bab6a
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: HandConstraint
+  - hash:
+      serializedVersion: 2
       Hash: 0fab45533e109ddc814ae669ce271177
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -3104,7 +3955,7 @@ ScriptsOnlyBuild:
     className: ShowSliderValue
   - hash:
       serializedVersion: 2
-      Hash: 8e09b38ab9f1303248bd5ca874ff63d9
+      Hash: 343bf3c15644c0fb4e3e1bde4c28a42e
     assemblyName: Microsoft.MixedReality.OpenXR.dll
     namespaceName: Microsoft.MixedReality.OpenXR
     className: MixedRealityFeaturePlugin
@@ -3114,6 +3965,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 90550977cde1b3190a6e8d63f8342c4f
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: XRUIInputModule
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3146,16 +4003,16 @@ ScriptsOnlyBuild:
     className: NetworkTeam
   - hash:
       serializedVersion: 2
-      Hash: 798a0031da7132450c34bed988d4a68b
-    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Utilities.Solvers
-    className: HandConstraintPalmUp
-  - hash:
-      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 798a0031da7132450c34bed988d4a68b
+    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Utilities.Solvers
+    className: HandConstraintPalmUp
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3168,6 +4025,18 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror
     className: NetworkTransformChild
+  - hash:
+      serializedVersion: 2
+      Hash: 9e6501692697e3b9d9f69d2caeaf6413
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: InteractablePulse
+  - hash:
+      serializedVersion: 2
+      Hash: 0247b3226bce1611f95bef667f3a55b3
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: GazeInteractor
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -3230,6 +4099,12 @@ ScriptsOnlyBuild:
     className: ElasticsManager
   - hash:
       serializedVersion: 2
+      Hash: 53806940f8cb2a9a1e6d00641cef710f
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: Overlap
+  - hash:
+      serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -3246,6 +4121,18 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.MultipleAdditiveScenes
     className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: ac546ab7008ad6f37d4e2dd9f9ee4218
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: bbade81dac1a85d15cf55cfe40d08acd
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: BasicPressableButtonVisuals
   - hash:
       serializedVersion: 2
       Hash: c7fd619a4876e448ab52bbba511c8903
@@ -3276,6 +4163,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: SpherePointer
+  - hash:
+      serializedVersion: 2
+      Hash: 8a8971d6ce01c906167b5cec64de37f1
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: BezierDataProvider
   - hash:
       serializedVersion: 2
       Hash: 64459306b4c471f3b49902e1e8679ce6
@@ -3344,6 +4237,18 @@ ScriptsOnlyBuild:
     className: MixedRealityControllerMappingProfile
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Subsystems
+    className: MRTKLifecycleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 44482dbb332b1e4db8aaa72d0b4f49ad
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRController
+  - hash:
+      serializedVersion: 2
       Hash: 07f8fe394bd4ca9713d1ad9ef0b4b3d3
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement
@@ -3368,6 +4273,12 @@ ScriptsOnlyBuild:
     className: InputActionEditorWindow
   - hash:
       serializedVersion: 2
+      Hash: 5a842397fa20f89bd64fef644ff2a3fb
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: FontIconSet
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
@@ -3378,6 +4289,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples
     className: InteractiveElementRuntimeExample
+  - hash:
+      serializedVersion: 2
+      Hash: 8416666a16d53b57bcfc8655265b9374
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: CanvasSliderVisuals
   - hash:
       serializedVersion: 2
       Hash: fc169718e5fd24cea7425f24908c0418
@@ -3408,6 +4325,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
     className: ToggleSpatialMeshObserver
+  - hash:
+      serializedVersion: 2
+      Hash: 160e2bcbe40528676c78b632c197744d
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs
+    className: InputActionManager
   - hash:
       serializedVersion: 2
       Hash: ae48b67c38be529ea16d3337a260354b
@@ -3450,6 +4373,18 @@ ScriptsOnlyBuild:
     assemblyName: SimpleWebTransport.dll
     namespaceName: Mirror.SimpleWeb
     className: SimpleWebTransport
+  - hash:
+      serializedVersion: 2
+      Hash: 880bd2749868a63916f386bfbdefb383
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: StateVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 5f15895d9ca8e13602fae5ebabc37a32
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit
+    className: MRTKProfile
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -3500,6 +4435,12 @@ ScriptsOnlyBuild:
     className: ProgressIndicatorObjectDisplay
   - hash:
       serializedVersion: 2
+      Hash: 55aa63e24a9cdeefc3d0b05ddbe525fe
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit
+    className: CameraSettingsManager
+  - hash:
+      serializedVersion: 2
       Hash: 5ffdc9eeaad0bf072d3dead9b61809ff
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -3512,10 +4453,22 @@ ScriptsOnlyBuild:
     className: MatchNetworkManager
   - hash:
       serializedVersion: 2
+      Hash: 1f880cc188f7f5eb5592d4bf4f57fef5
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: CharacterControllerDriver
+  - hash:
+      serializedVersion: 2
       Hash: 5a95be88cf8c36fe0dab0e0344fa19d1
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: ParabolaConstrainedLineDataProvider
+  - hash:
+      serializedVersion: 2
+      Hash: acc03d769157cc9fca34b69272630623
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: Momentum
   - hash:
       serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
@@ -3542,6 +4495,18 @@ ScriptsOnlyBuild:
     className: TeamInterestManagement
   - hash:
       serializedVersion: 2
+      Hash: 2a0e287016c755ae9b3d7b449382854f
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: DialogShell
+  - hash:
+      serializedVersion: 2
+      Hash: b60567947372804f8a7d4252d26bcc89
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRSocketInteractor
+  - hash:
+      serializedVersion: 2
       Hash: f9693aa3aa8bd17c4775ad5d64f69542
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror
@@ -3560,10 +4525,22 @@ ScriptsOnlyBuild:
     className: HoverLight
   - hash:
       serializedVersion: 2
+      Hash: 6e7ae59d2ab83ab39b3ac8612abd98f8
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: TabView
+  - hash:
+      serializedVersion: 2
       Hash: 7b91b8ab3efaacb9c08ab5288503ea97
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
     className: KeyboardKeyFunc
+  - hash:
+      serializedVersion: 2
+      Hash: 097a9297d3b6c106aa61cf52d48d6359
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: MRTKHandsAggregatorConfig
   - hash:
       serializedVersion: 2
       Hash: 9c215ccf8a582b0adad8d45fa450d638
@@ -3608,6 +4585,12 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 10cff9c207bfbd8a56f490c13815ef2e
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARRotationInteractable
+  - hash:
+      serializedVersion: 2
       Hash: 8c0ab4647352530edb5cc1e0bb40d3f0
     assemblyName: Microsoft.Maps.Unity.SupportingScripts.dll
     namespaceName: Microsoft.Maps.Unity
@@ -3638,7 +4621,7 @@ ScriptsOnlyBuild:
     className: DistanceInterestManagementCustomRange
   - hash:
       serializedVersion: 2
-      Hash: 5aee9b3345ebb48c8e5925abe9821ed0
+      Hash: 37bbd31b500719e3529699d5e6ec0249
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorCanvasBackplate
@@ -3674,7 +4657,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 0926f862783a6e002c21133220303929
+      Hash: 8681b2e7d17dc224327096d8e1688552
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorCanvasQuadGlow
@@ -3698,10 +4681,22 @@ ScriptsOnlyBuild:
     className: PressableButtonHoloLens2
   - hash:
       serializedVersion: 2
+      Hash: 7c61986edca26891673283154f9abbd1
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARAnnotationInteractable
+  - hash:
+      serializedVersion: 2
       Hash: 1d9b53318825332126b0fd6da2d962fb
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARAnchorManager
+  - hash:
+      serializedVersion: 2
+      Hash: c2c69f9b9053f8291b360c082a9bc2ac
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRInteractorReticleVisual
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3722,7 +4717,7 @@ ScriptsOnlyBuild:
     className: AppBar
   - hash:
       serializedVersion: 2
-      Hash: cbac5ce6cd8008e3187fdd46b8716c14
+      Hash: e2d6926a14b6fbf37a23fcff766f9600
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasElementMesh
@@ -3764,6 +4759,12 @@ ScriptsOnlyBuild:
     className: ZoneHandler
   - hash:
       serializedVersion: 2
+      Hash: 5aea7b360f47fa710e993f05cfdace3e
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRControllerRecording
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -3776,10 +4777,22 @@ ScriptsOnlyBuild:
     className: SymbolDisableHighlight
   - hash:
       serializedVersion: 2
-      Hash: 23d143cd24ad1344a15a1254648db194
+      Hash: c709fb8193cc3f28d7c47df072e61958
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorCanvasRadialSpinner
+  - hash:
+      serializedVersion: 2
+      Hash: 8017ba45fec40b3ec254f19045ea3bb8
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARTranslationInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Microsoft.MixedReality.Toolkit.UXComponents.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: MRTKTMPInputField
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3818,6 +4831,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollRectValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: b617b4affe72256ddf15bb40984499db
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: BezierInertia
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -3830,6 +4849,12 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: d155e3932072190631f96f324edc1a2d
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: DeviceBasedSnapTurnProvider
+  - hash:
+      serializedVersion: 2
       Hash: f61c040f6d2615f5633257d6ead0921d
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror
@@ -3840,6 +4865,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR.Features.MockRuntime.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.Mock
     className: MockRuntime
+  - hash:
+      serializedVersion: 2
+      Hash: 41a11e5e12848af5569b858de4102ec9
+    assemblyName: Microsoft.MixedReality.Toolkit.Core.dll
+    namespaceName: Microsoft.MixedReality.Toolkit
+    className: HandBounds
   - hash:
       serializedVersion: 2
       Hash: e570052b21f077fcf1509590022416b4
@@ -3894,6 +4925,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: DialogButton
+  - hash:
+      serializedVersion: 2
+      Hash: a6c29e92dd6fcd5262c7189a67722496
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedContinuousMoveProvider
   - hash:
       serializedVersion: 2
       Hash: a04f094627b2f926dd9e26348a8226d5
@@ -3962,6 +4999,12 @@ ScriptsOnlyBuild:
     className: ButtonCollider
   - hash:
       serializedVersion: 2
+      Hash: b67bc8a4357eefa02055722edbec5abc
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: CanvasProxyInteractor
+  - hash:
+      serializedVersion: 2
       Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
@@ -4016,6 +5059,12 @@ ScriptsOnlyBuild:
     className: SceneTransitionServiceProfile
   - hash:
       serializedVersion: 2
+      Hash: 577f93ac995e1db1cf5aec9ef4882a8f
+    assemblyName: Microsoft.MixedReality.Toolkit.UXCore.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UX
+    className: RectTransformColliderFitter
+  - hash:
+      serializedVersion: 2
       Hash: bbc46525001959f8de5e90b15e8587bc
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Experimental.HandMenu
@@ -4026,6 +5075,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Basic
     className: BasicNetManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2f266363c59f60438ad265d79f7ca8d9
+    assemblyName: Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.SpatialManipulation
+    className: HandConstraintPalmUp
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -4046,16 +5101,16 @@ ScriptsOnlyBuild:
     className: SolverHandler
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.VisualScripting.Core.dll
-    namespaceName: Unity.VisualScripting
-    className: UnityOnMouseUpMessageListener
-  - hash:
-      serializedVersion: 2
       Hash: 2c78508d67df37094377b29be4b72d85
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: FrontPlatePulse
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
       Hash: ff4753395d726a7aadce9c48dcaf99d6
@@ -4074,6 +5129,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
     className: Dock
+  - hash:
+      serializedVersion: 2
+      Hash: cef7651ddeb949eae74c2a92489f07e5
+    assemblyName: Unity.XR.Interaction.Toolkit.dll
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: TrackedDeviceGraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: c1aa24dc179be0cb7c6d49f66fc0db8a
@@ -4098,6 +5159,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Dwell
     className: ListItemDwell
+  - hash:
+      serializedVersion: 2
+      Hash: 4e5d1fa0f229f3609e74092671b2d8b7
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: FollowJoint
   - hash:
       serializedVersion: 2
       Hash: e7c62687d44555b8e639a05ba7b2b903
@@ -4142,10 +5209,16 @@ ScriptsOnlyBuild:
     className: FollowMeToggle
   - hash:
       serializedVersion: 2
-      Hash: f80a1aef73ca1487a7fe58d5280474dc
+      Hash: 7ad8db2224635281a91c632be9ccc9fb
     assemblyName: Microsoft.MixedReality.GraphicsTools.dll
     namespaceName: Microsoft.MixedReality.GraphicsTools
     className: CanvasMaterialAnimatorCanvasFrontplate
+  - hash:
+      serializedVersion: 2
+      Hash: 055ff1995c86c98a5ca316b445906b01
+    assemblyName: Microsoft.MixedReality.Toolkit.Input.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: GrabInteractor
   - hash:
       serializedVersion: 2
       Hash: 0e68c7511d0bb7746e68316200e21bb0
@@ -4170,6 +5243,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HololensHUD
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main.unity

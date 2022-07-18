@@ -214,7 +214,160 @@
         206,
         207,
         208,
-        209
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -330,6 +483,28 @@
       "DebugActionIndex": 10
     },
     {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/sharedassets0.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/sharedassets0.assets.resS"
+      ],
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/sharedassets0.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.resource"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/sharedassets0.resource"
+      ],
+      "DebugActionIndex": 12
+    },
+    {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Resources/unity_builtin_extra",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -338,7 +513,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
@@ -349,7 +524,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/StreamingAssets/UnityServicesProjectConfiguration.json"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/UnitySubsystems/MicrosoftOpenXRPlugin/UnitySubsystemsManifest.json",
@@ -360,7 +535,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/UnitySubsystems/MicrosoftOpenXRPlugin/UnitySubsystemsManifest.json"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json",
@@ -371,7 +546,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/openxr_loader.dll",
@@ -382,7 +557,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/openxr_loader.dll"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/MicrosoftGeospatialDecompressionNative.dll",
@@ -393,7 +568,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/MicrosoftGeospatialDecompressionNative.dll"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/AudioPluginMicrosoftSpatializerCrossPlatform.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PackageCache/com.microsoft.spatialaudio.spatializer.unity@f1bb3b9fa495/Plugins/x86_64/AudioPluginMicrosoftSpatializerCrossPlatform.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/AudioPluginMicrosoftSpatializerCrossPlatform.dll"
+      ],
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/UnityOpenXR.dll",
@@ -404,18 +590,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/UnityOpenXR.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/MicrosoftOpenXRPlugin.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/PackageCache/com.microsoft.mixedreality.openxr@e9fcfff63016/Runtime/windows/x64/MicrosoftOpenXRPlugin.dll"
+        "Library/PackageCache/com.microsoft.mixedreality.openxr@2924b763238c/Runtime/windows/x64/MicrosoftOpenXRPlugin.dll"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Plugins/x86_64/MicrosoftOpenXRPlugin.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Assembly-CSharp.dll",
@@ -426,7 +612,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Assembly-CSharp.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Assembly-CSharp.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Assembly-CSharp.pdb"
+      ],
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/kcp2k.dll",
@@ -437,7 +634,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/kcp2k.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/kcp2k.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/kcp2k.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/kcp2k.pdb"
+      ],
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.Maps.Unity.dll",
@@ -448,7 +656,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.Maps.Unity.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.Maps.Unity.SupportingScripts.dll",
@@ -459,7 +667,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.Maps.Unity.SupportingScripts.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.Maps.Unity.SupportingScripts.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.Maps.Unity.SupportingScripts.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.Maps.Unity.SupportingScripts.pdb"
+      ],
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.GraphicsTools.dll",
@@ -470,7 +689,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.GraphicsTools.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.GraphicsTools.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.GraphicsTools.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.GraphicsTools.pdb"
+      ],
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.OpenXR.dll",
@@ -481,7 +711,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.OpenXR.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.OpenXR.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.OpenXR.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.OpenXR.pdb"
+      ],
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Async.dll",
@@ -492,7 +733,40 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Async.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Async.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Async.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Async.pdb"
+      ],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Core.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Core.dll"
+      ],
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Core.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Core.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Core.pdb"
+      ],
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.dll",
@@ -503,7 +777,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.pdb"
+      ],
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.dll",
@@ -514,7 +799,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Examples.dll",
@@ -525,7 +810,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Examples.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 40
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Examples.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Examples.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Examples.pdb"
+      ],
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll",
@@ -536,7 +832,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 42
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.pdb"
+      ],
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll",
@@ -547,7 +854,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 44
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.pdb"
+      ],
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll",
@@ -558,7 +876,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 46
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.Tracking.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.Tracking.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Extensions.Tracking.pdb"
+      ],
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Gltf.dll",
@@ -569,7 +898,51 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Gltf.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 48
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Gltf.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Gltf.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Gltf.pdb"
+      ],
+      "DebugActionIndex": 49
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Input.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Input.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Input.dll"
+      ],
+      "DebugActionIndex": 50
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Input.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Input.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Input.pdb"
+      ],
+      "DebugActionIndex": 51
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.pdb"
+      ],
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll",
@@ -580,7 +953,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 53
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.LeapMotion.pdb"
+      ],
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll",
@@ -591,7 +975,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 55
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.OpenXR.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.OpenXR.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.OpenXR.pdb"
+      ],
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll",
@@ -602,7 +997,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 57
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.pdb"
+      ],
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll",
@@ -613,7 +1019,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 59
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.pdb"
+      ],
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll",
@@ -624,7 +1041,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll",
@@ -635,7 +1052,29 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 62
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.pdb"
+      ],
+      "DebugActionIndex": 63
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.pdb"
+      ],
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll",
@@ -646,7 +1085,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 65
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.pdb"
+      ],
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SDK.dll",
@@ -657,7 +1107,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SDK.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll",
@@ -668,7 +1118,29 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 68
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.pdb"
+      ],
+      "DebugActionIndex": 69
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SDK.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.SDK.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SDK.pdb"
+      ],
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll",
@@ -679,7 +1151,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 71
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.CameraSystem.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.CameraSystem.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.CameraSystem.pdb"
+      ],
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll",
@@ -690,7 +1173,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 73
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.pdb"
+      ],
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll",
@@ -701,7 +1195,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 75
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputAnimation.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputAnimation.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputAnimation.pdb"
+      ],
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll",
@@ -712,7 +1217,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 77
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSimulation.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSimulation.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSimulation.pdb"
+      ],
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll",
@@ -723,7 +1239,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 79
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSystem.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSystem.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSystem.pdb"
+      ],
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll",
@@ -734,7 +1261,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 81
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.SceneSystem.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.SceneSystem.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.SceneSystem.pdb"
+      ],
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll",
@@ -745,7 +1283,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 83
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.pdb"
+      ],
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll",
@@ -756,7 +1305,84 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 85
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.TeleportSystem.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.TeleportSystem.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.Services.TeleportSystem.pdb"
+      ],
+      "DebugActionIndex": 86
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SpatialManipulation.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.SpatialManipulation.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SpatialManipulation.dll"
+      ],
+      "DebugActionIndex": 87
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SpatialManipulation.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.SpatialManipulation.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.SpatialManipulation.pdb"
+      ],
+      "DebugActionIndex": 88
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.UXComponents.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.UXComponents.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.UXComponents.dll"
+      ],
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.UXComponents.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.UXComponents.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.UXComponents.pdb"
+      ],
+      "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.UXCore.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.UXCore.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.UXCore.dll"
+      ],
+      "DebugActionIndex": 91
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.UXCore.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.UXCore.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Microsoft.MixedReality.Toolkit.UXCore.pdb"
+      ],
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Authenticators.dll",
@@ -767,7 +1393,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Authenticators.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 93
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Authenticators.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Mirror.Authenticators.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Authenticators.pdb"
+      ],
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Components.dll",
@@ -778,7 +1415,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Components.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 95
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Components.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Mirror.Components.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Components.pdb"
+      ],
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.dll",
@@ -789,7 +1437,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Examples.dll",
@@ -800,7 +1448,29 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Examples.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 98
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Examples.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Mirror.Examples.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.Examples.pdb"
+      ],
+      "DebugActionIndex": 99
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Mirror.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mirror.pdb"
+      ],
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mono.Security.dll",
@@ -811,7 +1481,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/mscorlib.dll",
@@ -822,7 +1492,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/netstandard.dll",
@@ -833,7 +1503,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Newtonsoft.Json.dll",
@@ -844,7 +1514,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 104
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Newtonsoft.Json.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Newtonsoft.Json.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Newtonsoft.Json.pdb"
+      ],
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/SimpleWebTransport.dll",
@@ -855,7 +1536,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/SimpleWebTransport.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 106
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/SimpleWebTransport.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/SimpleWebTransport.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/SimpleWebTransport.pdb"
+      ],
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.ComponentModel.Composition.dll",
@@ -866,7 +1558,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Configuration.dll",
@@ -877,7 +1569,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Core.dll",
@@ -888,7 +1580,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -899,7 +1591,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Data.dll",
@@ -910,7 +1602,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Diagnostics.Debug.dll",
@@ -921,7 +1613,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Diagnostics.Debug.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.dll",
@@ -932,7 +1624,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Drawing.dll",
@@ -943,7 +1635,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.EnterpriseServices.dll",
@@ -954,7 +1646,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Globalization.dll",
@@ -965,7 +1657,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Globalization.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Globalization.Extensions.dll",
@@ -976,7 +1668,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Globalization.Extensions.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.IO.Compression.dll",
@@ -987,7 +1679,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -998,7 +1690,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Net.Http.dll",
@@ -1009,7 +1701,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Numerics.dll",
@@ -1020,7 +1712,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Resources.ResourceManager.dll",
@@ -1031,7 +1723,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Resources.ResourceManager.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Runtime.dll",
@@ -1042,7 +1734,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Runtime.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Runtime.Extensions.dll",
@@ -1053,7 +1745,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Runtime.Extensions.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Runtime.Serialization.dll",
@@ -1064,7 +1756,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Security.dll",
@@ -1075,7 +1767,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1086,7 +1778,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Transactions.dll",
@@ -1097,7 +1789,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Xml.dll",
@@ -1108,7 +1800,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Xml.Linq.dll",
@@ -1119,7 +1811,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Telepathy.dll",
@@ -1130,7 +1822,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Telepathy.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 132
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Telepathy.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Telepathy.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Telepathy.pdb"
+      ],
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.InputSystem.dll",
@@ -1141,7 +1844,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.InputSystem.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 134
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.InputSystem.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.InputSystem.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.InputSystem.pdb"
+      ],
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Analytics.dll",
@@ -1152,7 +1866,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Analytics.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 136
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Analytics.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Analytics.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Analytics.pdb"
+      ],
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Configuration.dll",
@@ -1163,7 +1888,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Configuration.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 138
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Configuration.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Configuration.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Configuration.pdb"
+      ],
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Device.dll",
@@ -1174,7 +1910,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Device.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 140
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Device.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Device.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Device.pdb"
+      ],
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.dll",
@@ -1185,7 +1932,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Environments.dll",
@@ -1196,7 +1943,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Environments.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
@@ -1207,7 +1954,29 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Environments.Internal.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 144
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Environments.Internal.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.Internal.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Environments.Internal.pdb"
+      ],
+      "DebugActionIndex": 145
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Environments.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Environments.pdb"
+      ],
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Internal.dll",
@@ -1218,7 +1987,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Internal.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 147
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Internal.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Internal.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Internal.pdb"
+      ],
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Networking.dll",
@@ -1229,7 +2009,29 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Networking.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 149
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Networking.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Networking.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Networking.pdb"
+      ],
+      "DebugActionIndex": 150
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.pdb"
+      ],
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Registration.dll",
@@ -1240,7 +2042,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Registration.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 152
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Registration.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Registration.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Registration.pdb"
+      ],
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Scheduler.dll",
@@ -1251,7 +2064,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Scheduler.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 154
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Scheduler.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Scheduler.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Scheduler.pdb"
+      ],
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Telemetry.dll",
@@ -1262,7 +2086,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Telemetry.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 156
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Telemetry.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Telemetry.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Telemetry.pdb"
+      ],
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Threading.dll",
@@ -1273,7 +2108,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Threading.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 158
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Threading.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Services.Core.Threading.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Services.Core.Threading.pdb"
+      ],
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Subsystem.Registration.dll",
@@ -1284,7 +2130,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Subsystem.Registration.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 160
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Subsystem.Registration.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Subsystem.Registration.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Subsystem.Registration.pdb"
+      ],
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.TextMeshPro.dll",
@@ -1295,7 +2152,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 162
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.TextMeshPro.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.TextMeshPro.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.TextMeshPro.pdb"
+      ],
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Timeline.dll",
@@ -1306,7 +2174,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 164
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Timeline.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.Timeline.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.Timeline.pdb"
+      ],
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1317,7 +2196,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1328,7 +2207,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 167
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Core.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.VisualScripting.Core.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Core.pdb"
+      ],
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1339,7 +2229,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 169
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Flow.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.VisualScripting.Flow.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.Flow.pdb"
+      ],
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1350,7 +2251,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 171
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.State.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.VisualScripting.State.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.VisualScripting.State.pdb"
+      ],
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.ARFoundation.dll",
@@ -1361,7 +2273,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.ARFoundation.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 173
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.ARFoundation.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.ARFoundation.pdb"
+      ],
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.ARSubsystems.dll",
@@ -1372,7 +2295,62 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.ARSubsystems.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 175
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.ARSubsystems.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.ARSubsystems.pdb"
+      ],
+      "DebugActionIndex": 176
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.CoreUtils.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.CoreUtils.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.CoreUtils.dll"
+      ],
+      "DebugActionIndex": 177
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.CoreUtils.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.CoreUtils.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.CoreUtils.pdb"
+      ],
+      "DebugActionIndex": 178
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.Interaction.Toolkit.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.Interaction.Toolkit.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.Interaction.Toolkit.dll"
+      ],
+      "DebugActionIndex": 179
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.Interaction.Toolkit.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.Interaction.Toolkit.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.Interaction.Toolkit.pdb"
+      ],
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.Management.dll",
@@ -1383,7 +2361,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.Management.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 181
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.Management.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.Management.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.Management.pdb"
+      ],
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.dll",
@@ -1394,7 +2383,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
@@ -1405,7 +2394,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 184
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb"
+      ],
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll",
@@ -1416,7 +2416,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 186
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb"
+      ],
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
@@ -1427,7 +2438,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 188
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb"
+      ],
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
@@ -1438,7 +2460,29 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 190
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb"
+      ],
+      "DebugActionIndex": 191
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/Unity.XR.OpenXR.pdb"
+      ],
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -1449,7 +2493,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 193
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AccessibilityModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AccessibilityModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AccessibilityModule.pdb"
+      ],
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AIModule.dll",
@@ -1460,7 +2515,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 195
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AIModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AIModule.pdb"
+      ],
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -1471,7 +2537,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 197
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AndroidJNIModule.pdb"
+      ],
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -1482,7 +2559,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 199
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AnimationModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AnimationModule.pdb"
+      ],
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ARModule.dll",
@@ -1493,7 +2581,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 201
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ARModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ARModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ARModule.pdb"
+      ],
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -1504,7 +2603,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 203
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AssetBundleModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AssetBundleModule.pdb"
+      ],
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AudioModule.dll",
@@ -1515,7 +2625,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 205
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AudioModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.AudioModule.pdb"
+      ],
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClothModule.dll",
@@ -1526,7 +2647,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 207
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClothModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ClothModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClothModule.pdb"
+      ],
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -1537,7 +2669,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 209
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClusterInputModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ClusterInputModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClusterInputModule.pdb"
+      ],
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -1548,7 +2691,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 211
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ClusterRendererModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ClusterRendererModule.pdb"
+      ],
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.CoreModule.dll",
@@ -1559,7 +2713,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 213
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.CoreModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.CoreModule.pdb"
+      ],
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -1570,7 +2735,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 215
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.CrashReportingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.CrashReportingModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.CrashReportingModule.pdb"
+      ],
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -1581,7 +2757,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 217
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.DirectorModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.DirectorModule.pdb"
+      ],
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.dll",
@@ -1592,7 +2779,7 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -1603,7 +2790,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 220
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.DSPGraphModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.DSPGraphModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.DSPGraphModule.pdb"
+      ],
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -1614,7 +2812,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 222
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GameCenterModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GameCenterModule.pdb"
+      ],
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GIModule.dll",
@@ -1625,7 +2834,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 224
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.GIModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GIModule.pdb"
+      ],
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GridModule.dll",
@@ -1636,7 +2856,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 226
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GridModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.GridModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.GridModule.pdb"
+      ],
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -1647,7 +2878,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 228
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.HotReloadModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.HotReloadModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.HotReloadModule.pdb"
+      ],
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1658,7 +2900,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 230
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ImageConversionModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ImageConversionModule.pdb"
+      ],
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1669,7 +2922,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 232
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.IMGUIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.IMGUIModule.pdb"
+      ],
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -1680,7 +2944,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 234
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.InputLegacyModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.InputLegacyModule.pdb"
+      ],
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.InputModule.dll",
@@ -1691,7 +2966,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 236
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.InputModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.InputModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.InputModule.pdb"
+      ],
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1702,7 +2988,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 238
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.JSONSerializeModule.pdb"
+      ],
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1713,7 +3010,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 240
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.LocalizationModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.LocalizationModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.LocalizationModule.pdb"
+      ],
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -1724,7 +3032,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 242
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.NVIDIAModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.NVIDIAModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.NVIDIAModule.pdb"
+      ],
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1735,7 +3054,29 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 244
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ParticleSystemModule.pdb"
+      ],
+      "DebugActionIndex": 245
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.pdb"
+      ],
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1746,7 +3087,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 247
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.PerformanceReportingModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.PerformanceReportingModule.pdb"
+      ],
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1757,7 +3109,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 249
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.Physics2DModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.Physics2DModule.pdb"
+      ],
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1768,7 +3131,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 251
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.PhysicsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.PhysicsModule.pdb"
+      ],
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1779,7 +3153,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 253
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ProfilerModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ProfilerModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ProfilerModule.pdb"
+      ],
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1790,7 +3175,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 255
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
+      ],
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1801,7 +3197,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 257
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.ScreenCaptureModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.ScreenCaptureModule.pdb"
+      ],
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1812,7 +3219,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 259
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SharedInternalsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SharedInternalsModule.pdb"
+      ],
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpatialTracking.dll",
@@ -1823,7 +3241,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpatialTracking.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 261
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpatialTracking.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpatialTracking.pdb"
+      ],
+      "DebugActionIndex": 262
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1834,7 +3263,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 263
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SpriteMaskModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpriteMaskModule.pdb"
+      ],
+      "DebugActionIndex": 264
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1845,7 +3285,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 265
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SpriteShapeModule.pdb"
+      ],
+      "DebugActionIndex": 266
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1856,7 +3307,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 267
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.StreamingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.StreamingModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.StreamingModule.pdb"
+      ],
+      "DebugActionIndex": 268
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1867,7 +3329,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 269
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SubstanceModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SubstanceModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SubstanceModule.pdb"
+      ],
+      "DebugActionIndex": 270
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1878,7 +3351,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 271
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SubsystemsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.SubsystemsModule.pdb"
+      ],
+      "DebugActionIndex": 272
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1889,7 +3373,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 273
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TerrainModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TerrainModule.pdb"
+      ],
+      "DebugActionIndex": 274
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1900,7 +3395,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 275
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TerrainPhysicsModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb"
+      ],
+      "DebugActionIndex": 276
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1911,7 +3417,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 277
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
+      ],
+      "DebugActionIndex": 278
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1922,7 +3439,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 279
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
+      ],
+      "DebugActionIndex": 280
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1933,7 +3461,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 281
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextRenderingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TextRenderingModule.pdb"
+      ],
+      "DebugActionIndex": 282
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1944,7 +3483,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 283
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TilemapModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TilemapModule.pdb"
+      ],
+      "DebugActionIndex": 284
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1955,7 +3505,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 285
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TLSModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.TLSModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.TLSModule.pdb"
+      ],
+      "DebugActionIndex": 286
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UI.dll",
@@ -1966,7 +3527,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 287
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UI.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UI.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UI.pdb"
+      ],
+      "DebugActionIndex": 288
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1977,7 +3549,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 289
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIElementsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIElementsModule.pdb"
+      ],
+      "DebugActionIndex": 290
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -1988,7 +3571,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 291
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIElementsNativeModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIElementsNativeModule.pdb"
+      ],
+      "DebugActionIndex": 292
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIModule.dll",
@@ -1999,7 +3593,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 293
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UIModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UIModule.pdb"
+      ],
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -2010,7 +3615,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 295
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UmbraModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UmbraModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UmbraModule.pdb"
+      ],
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UNETModule.dll",
@@ -2021,7 +3637,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 297
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UNETModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UNETModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UNETModule.pdb"
+      ],
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -2032,7 +3659,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 299
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb"
+      ],
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -2043,7 +3681,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 301
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityConnectModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityConnectModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityConnectModule.pdb"
+      ],
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -2054,7 +3703,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 303
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityCurlModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityCurlModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityCurlModule.pdb"
+      ],
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -2065,7 +3725,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 305
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityTestProtocolModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb"
+      ],
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -2076,7 +3747,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 307
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
+      ],
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -2087,7 +3769,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 309
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
+      ],
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -2098,7 +3791,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 311
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestModule.pdb"
+      ],
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -2109,7 +3813,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 313
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
+      ],
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -2120,7 +3835,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 315
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
+      ],
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -2131,7 +3857,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 317
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VehiclesModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VehiclesModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VehiclesModule.pdb"
+      ],
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VFXModule.dll",
@@ -2142,7 +3879,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 319
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VFXModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VFXModule.pdb"
+      ],
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VideoModule.dll",
@@ -2153,7 +3901,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 321
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VideoModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VideoModule.pdb"
+      ],
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -2164,7 +3923,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 323
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VirtualTexturingModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VirtualTexturingModule.pdb"
+      ],
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VRModule.dll",
@@ -2175,7 +3945,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 325
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VRModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.VRModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.VRModule.pdb"
+      ],
+      "DebugActionIndex": 326
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.WindModule.dll",
@@ -2186,7 +3967,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 327
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.WindModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.WindModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.WindModule.pdb"
+      ],
+      "DebugActionIndex": 328
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
@@ -2197,7 +3989,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll"
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 329
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb"
+      ],
+      "DebugActionIndex": 330
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.XRModule.dll",
@@ -2208,7 +4011,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 331
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.XRModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/UnityEngine.XRModule.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/UnityEngine.XRModule.pdb"
+      ],
+      "DebugActionIndex": 332
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/where-allocations.dll",
@@ -2219,7 +4033,18 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/where-allocations.dll"
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 333
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/where-allocations.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/where-allocations.pdb"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Managed/where-allocations.pdb"
+      ],
+      "DebugActionIndex": 334
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
@@ -2230,7 +4055,7 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 183
+      "DebugActionIndex": 335
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/app.info",
@@ -2242,20 +4067,20 @@
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/app.info"
       ],
       "ToBuildDependencies": [
-        183
+        335
       ],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 336
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Resources/unity default resources",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/Data/Resources/unity default resources"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 337
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MizzouCampusOnline.exe",
@@ -2266,249 +4091,260 @@
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MizzouCampusOnline.exe"
       ],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 338
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/UnityCrashHandler64.exe",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/UnityCrashHandler64.exe"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 339
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/UnityPlayer.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/UnityPlayer.dll"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 340
+    },
+    {
+      "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/WinPixEventRuntime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/WinPixEventRuntime.dll"
+      ],
+      "Outputs": [
+        "D:/Projects/Research/MapsBuild/WinPixEventRuntime.dll"
+      ],
+      "DebugActionIndex": 341
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 342
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 343
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/browscap.ini",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 344
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/config"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 345
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 346
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 347
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 348
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 349
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 350
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 351
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 352
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 353
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 201
+      "DebugActionIndex": 354
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 355
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 356
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 357
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 358
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 359
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 360
     },
     {
       "Annotation": "CopyFiles D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
       "Outputs": [
         "D:/Projects/Research/MapsBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 361
     },
     {
       "Annotation": "Player",
@@ -2698,6 +4534,7 @@
         180,
         181,
         182,
+        183,
         184,
         185,
         186,
@@ -2722,10 +4559,162 @@
         205,
         206,
         207,
-        208
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 209
+      "DebugActionIndex": 362
     }
   ],
   "FileSignatures": [
@@ -2849,10 +4838,10 @@
       "File": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/Data/Resources"
     },
     {
       "File": "D:/Projects/Research/MapsBuild/GameAssembly.dll"
@@ -2870,7 +4859,10 @@
       "File": "Library/PackageCache/com.microsoft.maps.unity@0.11.2/Plugins/CompressionNative/Standalone/Windows/x64/MicrosoftGeospatialDecompressionNative.dll"
     },
     {
-      "File": "Library/PackageCache/com.microsoft.mixedreality.openxr@e9fcfff63016/Runtime/windows/x64/MicrosoftOpenXRPlugin.dll"
+      "File": "Library/PackageCache/com.microsoft.mixedreality.openxr@2924b763238c/Runtime/windows/x64/MicrosoftOpenXRPlugin.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.microsoft.spatialaudio.spatializer.unity@f1bb3b9fa495/Plugins/x86_64/AudioPluginMicrosoftSpatializerCrossPlatform.dll"
     },
     {
       "File": "Library/PackageCache/com.unity.xr.openxr@1.4.2/Runtime/windows/x64/UnityOpenXR.dll"
@@ -2888,11 +4880,11 @@
       "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono",
       "Recurse": 1
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/Data/Resources",
       "Recurse": 1
     },
     {
@@ -2940,7 +4932,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 209
+          "Player": 362
         }
 ,  "DefaultNodes": [
     0
